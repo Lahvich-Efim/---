@@ -5,6 +5,15 @@
 @import "_aside.scss";
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap');
 
+.aside {
+    @media (max-width: 767.99px) {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        text-align: center;
+    }
+}
+
 .margin {
     display: grid;
     grid-template-columns: 300px auto;
@@ -16,6 +25,10 @@
 .tovar{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    @media(max-width: 440px)
+    {
+        grid-template-columns: repeat(2, 48%);
+    }
     justify-items: center;
     gap: 10px;
 }
@@ -28,8 +41,7 @@
     // .item__content
 
     &__content {
-        margin: 10px 15px;
-        
+        margin: 5% 6%;
         img{
             width: 100%;
         }
@@ -54,7 +66,6 @@
         font-size: 12px;
         text-align: right;
         text-decoration: line-through;
-        line-height-step: 6px;
         text-decoration-thickness: 1.2px;
         text-decoration-color: #868585;
     }
@@ -74,7 +85,7 @@
     &__button {
         position: absolute;
         display: inline-block;
-        padding: 7px 50px;
+        padding: 4% 20%;
         background-color: #9C9600;
         border: none;
         font-size: 14px;
@@ -82,7 +93,28 @@
         color:#ffffff;
         border-radius: 13px; 
         bottom: 10px;
-        left: calc(50% - 70px);
+        left: 17.5%;
     }
-    
+    @media (max-width: 440px) {
+        width: 100%;
+        &__title {
+            font-size: 3.5vw;
+        }
+        &__cost {
+            font-size: 2.8vw;
+        }
+        &__scidka {
+            font-size: 4vw;
+        }
+        
+        &__button {
+            font-size: 3vw;
+        }
+    }
+}
+
+h2{
+    @media(max-width: 550px) {
+        font-size: 4vw;
+    }
 }
