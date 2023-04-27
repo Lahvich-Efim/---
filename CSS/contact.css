@@ -14,7 +14,7 @@
 }
 
 .column__logo {
-  flex: 1 0 10%;
+  flex: 1 0 200px;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -30,7 +30,7 @@
 }
 @media (max-width: 767.99px) {
   .column__logo img {
-    width: 130px;
+    width: 120px;
   }
 }
 .column__second-header {
@@ -53,10 +53,10 @@
   color: #6d6d6d;
 }
 .contacts .hed-tel {
-  background: url("../SVG/a1.svg") no-repeat;
+  background: url("SVG/a1.svg") no-repeat;
 }
 .contacts .hed-email {
-  background: url("../SVG/message.svg") no-repeat;
+  background: url("SVG/message.svg") no-repeat;
 }
 
 @media (max-width: 767.99px) {
@@ -96,21 +96,21 @@
 @media (max-width: 767.99px) {
   .menu__burger {
     position: relative; /* задаем относительное позиционирование */
-    width: 40px; /* определяем размеры блока */
-    height: 35px;
+    width: 30px; /* определяем размеры блока */
+    height: 30px;
     display: block;
     float: right;
-    margin: 15px 20px;
+    margin: 15px;
   }
   .menu__burger:before, .menu__burger:after, .menu__burger span {
-    height: 3px;
+    height: 2px;
     width: 100%;
     position: absolute;
     background: #424242;
     margin: 0 auto;
   }
   .menu__burger span {
-    top: 16px;
+    top: 14px;
     transition: all 0.4s;
   }
   .menu__burger:before, .menu__burger:after {
@@ -128,11 +128,11 @@
   }
   .menu__burger.open-menu:before {
     transform: rotate(38deg);
-    top: 16px;
+    top: 14px;
   }
   .menu__burger.open-menu:after {
     transform: rotate(-38deg);
-    bottom: 16px;
+    bottom: 14px;
   }
 }
 @media (max-width: 767.99px) {
@@ -301,6 +301,6 @@ ul {
 }
 @media (max-width: 767.99px) {
   .margin {
-    margin-top: 100px;
+    margin-top: 105px;
   }
 }

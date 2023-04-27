@@ -4,22 +4,22 @@
         z-index: 3;
         @media(max-width: 767.99px){
         position: relative; /* задаем относительное позиционирование */
-        width: 40px; /* определяем размеры блока */
-        height: 35px;
+        width: 30px; /* определяем размеры блока */
+        height: 30px;
         display: block;
         float: right;
-        margin: 15px 20px;
+        margin: 15px;
         
         &:before, &:after, span
         {
-            height: 3px;
+            height: 2px;
             width: 100%;
             position: absolute;
             background: #424242;
             margin: 0 auto;
         } 
         span{
-            top: 16px;
+            top: 14px;
             transition: all 0.4s;
         }
         &:before, &:after{
@@ -37,11 +37,11 @@
         }
         &.open-menu:before{
             transform: rotate(38deg);
-            top: 16px;
+            top: 14px;
         }
         &.open-menu:after{
             transform: rotate(-38deg);
-            bottom: 16px;
+            bottom: 14px;
         }
     }
     }
