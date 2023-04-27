@@ -1,0 +1,459 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap");
+.header {
+  border-bottom: solid 1px #c0c0c0;
+  box-shadow: 0 0 5px 2px rgb(181, 181, 181);
+  background-color: #ffffff;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.content {
+  display: flex;
+}
+
+.column__logo {
+  flex: 1 0 10%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 767.99px) {
+  .column__logo {
+    display: block;
+  }
+}
+.column__logo img {
+  margin: 6px 15px 0px;
+  width: 180px;
+}
+@media (max-width: 767.99px) {
+  .column__logo img {
+    width: 130px;
+  }
+}
+.column__second-header {
+  margin-top: 10px;
+  flex: 1 0 auto;
+}
+
+@media (max-width: 767.99px) {
+  .contacts {
+    display: none;
+  }
+}
+.contacts a {
+  display: inline-block;
+  margin: 10px 0 10px 30px;
+  padding-left: 30px;
+  transition: all 0.5s ease;
+}
+.contacts a:hover {
+  color: #6d6d6d;
+}
+.contacts .hed-tel {
+  background: url("../SVG/a1.svg") no-repeat;
+}
+.contacts .hed-email {
+  background: url("../SVG/message.svg") no-repeat;
+}
+
+@media (max-width: 767.99px) {
+  .menu {
+    display: none;
+  }
+}
+.menu__body {
+  display: flex;
+  padding: 0;
+  margin: 10px -10px;
+  vertical-align: middle;
+}
+.menu__link {
+  flex: 1 0 auto;
+  display: inline-block;
+  margin: 0 5px;
+}
+.menu__link .link {
+  display: block;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  text-align: center;
+  transition: border-color 0.5s, background-color 0.5s;
+}
+.menu__link .link:hover {
+  background-color: #e6e5e5;
+}
+
+.menu__burger {
+  display: none;
+  z-index: 3;
+}
+@media (max-width: 767.99px) {
+  .menu__burger {
+    position: relative; /* задаем относительное позиционирование */
+    width: 40px; /* определяем размеры блока */
+    height: 35px;
+    display: block;
+    float: right;
+    margin: 15px 20px;
+  }
+  .menu__burger:before, .menu__burger:after, .menu__burger span {
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    background: #424242;
+    margin: 0 auto;
+  }
+  .menu__burger span {
+    top: 16px;
+    transition: all 0.4s;
+  }
+  .menu__burger:before, .menu__burger:after {
+    content: "";
+    transition: all 0.4s;
+  }
+  .menu__burger:before {
+    top: 5px;
+  }
+  .menu__burger:after {
+    bottom: 5px;
+  }
+  .menu__burger.open-menu span {
+    opacity: 0;
+  }
+  .menu__burger.open-menu:before {
+    transform: rotate(38deg);
+    top: 16px;
+  }
+  .menu__burger.open-menu:after {
+    transform: rotate(-38deg);
+    bottom: 16px;
+  }
+}
+@media (max-width: 767.99px) {
+  .menu {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    transition: all 0.4s ease;
+    background: rgb(255, 255, 255);
+    width: 300px;
+    box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
+    padding: 100px 0 100% 0;
+    z-index: 2;
+  }
+  .menu__body {
+    display: block;
+  }
+  .menu__link {
+    display: block;
+    margin: 10px 40px;
+    font-size: 14px;
+  }
+  .menu__link:nth-child(3), .menu__link:nth-child(4) {
+    display: block;
+  }
+  .menu__link .link {
+    text-align: right;
+  }
+  .menu.open-menu {
+    right: 0;
+  }
+}
+
+.effect {
+  display: none;
+  width: 0%;
+}
+@media (max-width: 767.99px) {
+  .effect {
+    background-color: #434343;
+    display: block;
+    position: absolute;
+    opacity: 0;
+    z-index: 2;
+    transition: opacity 0.4s ease;
+  }
+  .effect.open-menu {
+    width: 100%;
+    padding-bottom: 1000%;
+    opacity: 0.6;
+  }
+}
+
+.footer {
+  padding: 20px 0 30px 0;
+  background-color: #262626;
+  margin-top: 40px;
+}
+.footer__content {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 767.99px) {
+  .footer__content {
+    display: block;
+  }
+}
+.footer__column {
+  flex: 1 0 auto;
+}
+@media (max-width: 991.99px) {
+  .footer__column {
+    margin-bottom: 50px;
+  }
+  .footer__column:nth-child(3) {
+    display: none;
+  }
+}
+.footer__title {
+  font-size: 18px;
+  color: rgb(229, 229, 229);
+}
+@media (max-width: 767.99px) {
+  .footer__title {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+@media (max-width: 767.99px) {
+  .footer__nav {
+    text-align: center;
+  }
+}
+.footer__logo a {
+  display: block;
+  position: relative;
+}
+.footer__logo img {
+  width: 150px;
+}
+
+.info__body {
+  padding-left: 15px;
+}
+@media (max-width: 767.99px) {
+  .info__body {
+    padding-left: 0;
+  }
+}
+.info__link {
+  margin-bottom: 14px;
+}
+.info__link .link {
+  color: rgb(229, 229, 229);
+  display: block;
+}
+@media (max-width: 767.99px) {
+  .info__link .link {
+    padding: 5px 0;
+  }
+}
+.info__text {
+  color: #8A8A8A;
+  margin-bottom: 10px;
+}
+
+body, a, span {
+  font-family: "Rubik", sans-serif;
+  text-decoration: none;
+  text-decoration-line: none;
+  color: black;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  top: 0;
+  min-height: 100%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding: 0;
+}
+
+._container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+@media (max-width: 1452px) {
+  ._container {
+    max-width: none;
+  }
+}
+
+.margin {
+  margin-top: 150px;
+}
+@media (max-width: 767.99px) {
+  .margin {
+    margin-top: 100px;
+  }
+}
+
+.aside {
+  background-color: #F6F6F6;
+  border: solid 1px #b8b8b8;
+  width: 280px;
+  padding: 0 10px;
+}
+@media (max-width: 767.99px) {
+  .aside {
+    display: none;
+  }
+}
+
+.menu-aside h1 {
+  padding: 0 20px;
+  display: block;
+  margin-bottom: -10px;
+  font-size: 33px;
+  font-weight: 500;
+}
+.menu-aside__body {
+  padding: 0 0 10px 0;
+}
+.menu-aside__link {
+  margin: 0 20px;
+}
+.menu-aside__link .link-aside {
+  display: block;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: none;
+  background: none;
+  width: 100%;
+  padding: 15px 10px;
+  border-bottom: 1px solid;
+  text-align: left;
+  box-sizing: border-box;
+}
+.menu-aside__link .link-aside span:after {
+  font-weight: 600;
+  font-size: 16px;
+}
+.menu-aside__link #a0 span:after {
+  content: "Электрический теплый пол";
+}
+.menu-aside__link #a1 span:after {
+  content: "Винтажные электроустановочные изделия";
+}
+.menu-aside__link #a2 span:after {
+  content: "Электроустановочные изделия";
+}
+.menu-aside__link #a3 span:after {
+  content: "Освещение";
+}
+.menu-aside__link #a4 span:after {
+  content: "Автоматические выключатели, Дифференциальные автоматы, УЗО.";
+}
+.menu-aside__link #a5 span:after {
+  content: "Релейная защита и автоматика";
+}
+.menu-aside__link #a6 span:after {
+  content: "Кабельная продукция";
+}
+.menu-aside__link #a7 span:after {
+  content: "Распределительные щиты";
+}
+.menu-aside__link #a8 span:after {
+  content: "Зарядные станции для электромобилей";
+}
+.menu-aside__link #a9 span:after {
+  content: "Системы молниезащиты и заземления";
+}
+.menu-aside__link #a10 span:after {
+  content: "Системы защиты от протечки воды";
+}
+.menu-aside__link #a11 span:after {
+  content: "Инструменты";
+}
+.menu-aside__link:last-child .link-aside {
+  border: 0;
+}
+
+.margin {
+  display: grid;
+  grid-template-columns: 300px auto;
+  gap: 30px;
+}
+@media (max-width: 767.99px) {
+  .margin {
+    display: block;
+  }
+}
+
+.tovar {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  justify-items: center;
+  gap: 10px;
+}
+
+.item {
+  background-color: #F6F6F6;
+  border: solid 1px #b8b8b8;
+  width: 200px;
+  position: relative;
+}
+.item__content {
+  margin: 10px 15px;
+}
+.item__content img {
+  width: 100%;
+}
+.item__title {
+  margin-top: 10px;
+  font-weight: 600;
+  display: block;
+  font-size: 15px;
+}
+.item__cost {
+  color: #949494;
+  font-weight: 500;
+  margin-left: 4px;
+  margin-bottom: 0;
+  font-size: 12px;
+  text-align: right;
+  text-decoration: line-through;
+  line-height-step: 6px;
+  text-decoration-thickness: 1.2px;
+  text-decoration-color: #868585;
+}
+.item__scidka {
+  color: #9C9600;
+  margin-top: 3px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  margin-left: 4px;
+  font-size: 18px;
+  text-align: right;
+}
+.item__button {
+  position: absolute;
+  display: inline-block;
+  padding: 7px 50px;
+  background-color: #9C9600;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  border-radius: 13px;
+  bottom: 10px;
+  left: calc(50% - 70px);
+}

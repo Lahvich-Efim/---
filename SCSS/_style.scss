@@ -1,0 +1,45 @@
+$MaxMidthContainer: 1440;
+$md1: $MaxMidthContainer + 12;
+$md2: 991.99;
+$md3: 767.99;
+$md4: 479.99;
+
+ body, a, span
+ {
+    font-family: "Rubik", sans-serif;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: black;
+    padding: 0;
+    margin: 0;
+ }
+ul{
+    list-style: none;
+}
+.wrapper{
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column; 
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+._container
+{
+    max-width: $MaxMidthContainer+px;
+    margin: 0 auto;
+    padding: 0 12px;
+    @media (max-width: $md1+px) {
+        max-width: none;
+    }
+}
+
+.margin{
+    margin-top: 150px;
+    @media (max-width: $md3+px) {
+        margin-top: 100px;
+    }
+}

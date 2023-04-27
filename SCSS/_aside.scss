@@ -1,0 +1,85 @@
+.aside {
+    background-color: #F6F6F6;
+    
+    border: solid 1px #b8b8b8;
+    width: 280px;
+    padding: 0 10px;
+    @media (max-width: 767.99px) {
+        display: none;
+    }
+    // .aside__list
+}
+.menu-aside {
+    // .menu-aside__body
+    h1{
+        padding: 0 20px;
+        display: block;
+        margin-bottom: -10px;
+        font-size: 33px;
+        font-weight: 500;
+    }
+    &__body {
+        padding: 0 0 10px 0;
+    }
+
+    // .menu-aside__link
+
+    &__link {
+        margin: 0 20px;
+        .link-aside{
+            display: block;
+            appearance: none;
+            border: none;
+            background: none;
+            width: 100%;
+            padding: 15px 10px;
+            border-bottom: 1px solid;
+            text-align: left;
+            box-sizing: border-box;
+            span:after {
+            font-weight: 600;
+            font-size: 16px;
+            }
+        }
+        #a0 span:after {
+            content: "Электрический теплый пол";
+        }
+        #a1 span:after {
+            content: "Винтажные электроустановочные изделия";
+        }
+        #a2 span:after {
+            content: "Электроустановочные изделия";
+        }
+        #a3 span:after {
+            content: "Освещение";
+        }
+        #a4 span:after {
+            content: "Автоматические выключатели, Дифференциальные автоматы, УЗО.";
+        }
+        #a5 span:after {
+            content: "Релейная защита и автоматика";
+        }
+        #a6 span:after {
+            content: "Кабельная продукция";
+        }
+        #a7 span:after {
+            content: "Распределительные щиты";
+        }
+        #a8 span:after {
+            content: "Зарядные станции для электромобилей";
+        }
+        #a9 span:after {
+            content: "Системы молниезащиты и заземления";
+        }
+        #a10 span:after {
+            content: "Системы защиты от протечки воды";
+        }
+        #a11 span:after {
+            content: "Инструменты";
+        }
+
+        &:last-child .link-aside{
+                border: 0;
+            }
+    }
+}
