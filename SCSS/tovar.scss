@@ -22,11 +22,15 @@
 .main {
     background-color: #F6F6F6;
     border: solid 1px #b8b8b8;
-    padding: 15px 40px 15px;
+    padding: 15px 40px ;
+    @media (max-width: 768px) {
+        padding: 15px 5%;
+    }
 }
 .tovar{
 .buy {
-        height: 250px;
+        padding-bottom: 50px;
+        
 		// .tovar__title
         &__img{
             float: left;
@@ -88,11 +92,47 @@
             border-radius: 13px;
             margin-top: 30px;
 		}
-
+        @media(max-width: 768px) {
+            &__img {
+                margin: 0 auto;
+                display: block;
+                width: 370px;
+                float: none;
+            }
+            &__buy {
+                display: block;
+                margin:  30px auto 0;
+                width: 65px;
+            }
+            div {
+                margin: 0 auto;
+                max-width: 500px;
+            }
+            @media (max-width: 440px) {
+                &__img {
+                    width: 100%;
+                }
+                &__buy {
+                    width: 18%;
+                    font-size: 3.7vw;
+                }
+                &__cost {
+                    font-size: 3.2vw;
+                }
+                &__title {
+                    font-size: 5vw;
+                }
+                &__scidka {
+                    font-size: 5.4vw;
+                }
+                &__nalich {
+                    font-size: 4.5vw;
+                }
+            }
+        }
     }
     .info {
         width: 100%;
-        margin-top: 90px;
     &__button {
         display: flex;
         justify-content: center;
@@ -105,6 +145,9 @@
             padding-bottom: 15px;
             a{
                 padding-bottom: 14.5px;
+            }
+            @media (max-width: 440px) {
+                font-size: 4.5vw;
             }
         }
 
@@ -124,10 +167,6 @@
             }
         }
     }
-
-    &__content {
-       
-    }
 }
 }
 
@@ -136,12 +175,19 @@
         text-indent: 15px;
         margin: 0 20px;
         text-align: justify;
+        @media (max-width: 440px) {
+            font-size: 3.5vw;
+        }
+        
     }
     &__characteristic {
         table {
             width: 100%;
-            margin: 40px 20px;
+            margin: 40px 0;
             border-collapse: collapse;
+            @media (max-width: 440px) {
+                font-size: 3.7vw;
+            }
             th, td {
                 border-style: solid;
                 border-width: 1px;
@@ -154,6 +200,12 @@
                 font-weight: 500;
                 text-align: left;
             }
+        }
+    }
+    @media(max-width: 768px) {
+        &__opisanie {
+            text-indent: 15px;
+            margin: 0;
         }
     }
 }

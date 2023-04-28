@@ -53,10 +53,10 @@
   color: #6d6d6d;
 }
 .contacts .hed-tel {
-  background: url("SVG/a1.svg") no-repeat;
+  background: url("../SVG/a1.svg") no-repeat;
 }
 .contacts .hed-email {
-  background: url("SVG/message.svg") no-repeat;
+  background: url("../SVG/message.svg") no-repeat;
 }
 
 @media (max-width: 767.99px) {
@@ -145,7 +145,7 @@
     background: rgb(255, 255, 255);
     width: 300px;
     box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
-    padding: 100px 0 200% 0;
+    padding: 100px 0 1000% 0;
     z-index: 2;
   }
   .menu__body {
@@ -182,7 +182,7 @@
   }
   .effect.open-menu {
     width: 100%;
-    padding-bottom: 200%;
+    padding-bottom: 1000%;
     opacity: 0.6;
   }
 }
@@ -402,11 +402,16 @@ ul {
 .main {
   background-color: #F6F6F6;
   border: solid 1px #b8b8b8;
-  padding: 15px 40px 15px;
+  padding: 15px 40px;
+}
+@media (max-width: 768px) {
+  .main {
+    padding: 15px 5%;
+  }
 }
 
 .tovar .buy {
-  height: 250px;
+  padding-bottom: 50px;
 }
 .tovar .buy__img {
   float: left;
@@ -459,9 +464,46 @@ ul {
   border-radius: 13px;
   margin-top: 30px;
 }
+@media (max-width: 768px) {
+  .tovar .buy__img {
+    margin: 0 auto;
+    display: block;
+    width: 370px;
+    float: none;
+  }
+  .tovar .buy__buy {
+    display: block;
+    margin: 30px auto 0;
+    width: 65px;
+  }
+  .tovar .buy div {
+    margin: 0 auto;
+    max-width: 500px;
+  }
+}
+@media (max-width: 768px) and (max-width: 440px) {
+  .tovar .buy__img {
+    width: 100%;
+  }
+  .tovar .buy__buy {
+    width: 18%;
+    font-size: 3.7vw;
+  }
+  .tovar .buy__cost {
+    font-size: 3.2vw;
+  }
+  .tovar .buy__title {
+    font-size: 5vw;
+  }
+  .tovar .buy__scidka {
+    font-size: 5.4vw;
+  }
+  .tovar .buy__nalich {
+    font-size: 4.5vw;
+  }
+}
 .tovar .info {
   width: 100%;
-  margin-top: 90px;
 }
 .tovar .info__button {
   display: flex;
@@ -478,21 +520,37 @@ ul {
 .tovar .info__button div a {
   padding-bottom: 14.5px;
 }
+@media (max-width: 440px) {
+  .tovar .info__button div {
+    font-size: 4.5vw;
+  }
+}
 .tovar .info__op.active a {
   border-bottom: solid 3px #9C9600;
 }
 .tovar .info__ch.active a {
   border-bottom: solid 3px #9C9600;
 }
+
 .content-info__opisanie {
   text-indent: 15px;
   margin: 0 20px;
   text-align: justify;
 }
+@media (max-width: 440px) {
+  .content-info__opisanie {
+    font-size: 3.5vw;
+  }
+}
 .content-info__characteristic table {
   width: 100%;
-  margin: 40px 20px;
+  margin: 40px 0;
   border-collapse: collapse;
+}
+@media (max-width: 440px) {
+  .content-info__characteristic table {
+    font-size: 3.7vw;
+  }
 }
 .content-info__characteristic table th, .content-info__characteristic table td {
   border-style: solid;
@@ -505,4 +563,10 @@ ul {
   color: #ffffff;
   font-weight: 500;
   text-align: left;
+}
+@media (max-width: 768px) {
+  .content-info__opisanie {
+    text-indent: 15px;
+    margin: 0;
+  }
 }

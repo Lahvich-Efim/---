@@ -25,7 +25,7 @@ else {
     let scidka = tovar.getElementsByTagName("skidka")[0].innerHTML;
     let cost_s = cost* ( 100 - scidka) / 100;
     str += "<div class=\"buy\">";
-    str += "<img class=\"buy__img\" src=\"" + tovar.getElementsByTagName("urlimg")[0].textContent + "\"><h3 class=\"buy__title\">" +
+    str += "<img class=\"buy__img\" src=\"" + tovar.getElementsByTagName("urlimg")[0].textContent + "\"><div><h3 class=\"buy__title\">" +
     tovar.getElementsByTagName("name")[0].textContent + "</h3><p class=\"buy__cost\">" +
     tovar.getElementsByTagName("cost")[0].textContent + " " + tovar.getElementsByTagName("cost")[0].getAttribute("unit") + "</p><p class=\"buy__scidka\">" +
     cost_s.toFixed(2) + " " + tovar.getElementsByTagName("cost")[0].getAttribute("unit") + "</p><p class=\"buy__nalich\"><span class=\"nalich\" style=\"color:";
@@ -37,7 +37,7 @@ else {
         str += "#9d0000\">Нет в наличии"; 
     }
     str  += "</span><span class=\"code\">Код: " +
-    tovar.getElementsByTagName("code")[0].textContent + "</span></p><a href=\"buy.html?category=" + c + "&tovar=" + t + "\"class=\"buy__buy\">Купить</a>"; 
+    tovar.getElementsByTagName("code")[0].textContent + "</span></p></div><a href=\"buy.html?category=" + c + "&tovar=" + t + "\"class=\"buy__buy\">Купить</a>"; 
     str += "</div>" + document.getElementById("tovar").innerHTML;
     str_op =  tovar.getElementsByTagName("opisanie")[0].innerHTML;
     str_ch =  tovar.getElementsByTagName("characteristic")[0].innerHTML;
