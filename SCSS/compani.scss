@@ -9,5 +9,9 @@
     margin-right: 14%;
     text-align: justify;
     text-indent: 25px;
+    @media (max-width: 768px) {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }
 

@@ -311,3 +311,9 @@ ul {
   text-align: justify;
   text-indent: 25px;
 }
+@media (max-width: 768px) {
+  .margin {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}

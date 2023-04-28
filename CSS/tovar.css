@@ -411,7 +411,7 @@ ul {
 }
 
 .tovar .buy {
-  padding-bottom: 50px;
+  padding-bottom: 80px;
 }
 .tovar .buy__img {
   float: left;
@@ -465,6 +465,9 @@ ul {
   margin-top: 30px;
 }
 @media (max-width: 768px) {
+  .tovar .buy {
+    padding-bottom: 40px;
+  }
   .tovar .buy__img {
     margin: 0 auto;
     display: block;
@@ -487,6 +490,7 @@ ul {
   }
   .tovar .buy__buy {
     width: 18%;
+    padding: 3.3% 18%;
     font-size: 3.7vw;
   }
   .tovar .buy__cost {
@@ -534,13 +538,9 @@ ul {
 
 .content-info__opisanie {
   text-indent: 15px;
+  line-height: 22px;
   margin: 0 20px;
   text-align: justify;
-}
-@media (max-width: 440px) {
-  .content-info__opisanie {
-    font-size: 3.5vw;
-  }
 }
 .content-info__characteristic table {
   width: 100%;
