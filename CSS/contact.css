@@ -53,10 +53,10 @@
   color: #6d6d6d;
 }
 .contacts .hed-tel {
-  background: url("../SVG/a1.svg") no-repeat;
+  background: url("../SVG/a1.svg") no-repeat -2px -6px;
 }
 .contacts .hed-email {
-  background: url("../SVG/message.svg") no-repeat;
+  background: url("../SVG/message.svg") no-repeat -2px -4px;
 }
 
 @media (max-width: 767.99px) {
@@ -85,8 +85,10 @@
   text-align: center;
   transition: border-color 0.5s, background-color 0.5s;
 }
-.menu__link .link:hover {
-  background-color: #e6e5e5;
+@media (min-width: 767.99px) {
+  .menu__link .link:hover {
+    background-color: #e6e5e5;
+  }
 }
 
 .menu__burger {
@@ -141,7 +143,7 @@
     position: absolute;
     top: 0;
     right: -100%;
-    transition: all 0.4s ease;
+    transition: all 0.4s ease-in-out;
     background: rgb(255, 255, 255);
     width: 300px;
     box-shadow: 0 4px 2px -2px rgba(36, 36, 36, 0.17);
@@ -303,4 +305,36 @@ ul {
   .margin {
     margin-top: 105px;
   }
+}
+
+.contact__content {
+  display: grid;
+  max-width: 1350px;
+  margin: 30px auto;
+  grid-template-columns: repeat(4, 1fr);
+}
+.contact__content ._div {
+  padding: 0 15px;
+  border-right: solid 2px #bfbfbf;
+}
+.contact__content ._div:last-child {
+  border-right: none;
+}
+.contact__content ._div h4 {
+  margin: 10px 0;
+}
+.contact__content ._div p {
+  font-size: 14px;
+  margin: 6px 0;
+  text-indent: 14px;
+}
+.contact__content ._div img {
+  float: left;
+  margin-right: 10px;
+  width: 65px;
+}
+.contact__block {
+  display: block;
+  width: 256px;
+  margin: 0 auto;
 }

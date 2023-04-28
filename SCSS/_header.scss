@@ -51,10 +51,10 @@ $bc-cl: #ffffff;
         }
     }
     .hed-tel {
-        background: url("../SVG/a1.svg") no-repeat;
+        background: url("../SVG/a1.svg") no-repeat -2px -6px;
     }
     .hed-email {
-        background: url("../SVG/message.svg") no-repeat;
+        background: url("../SVG/message.svg") no-repeat -2px -4px;
     }
 }
 
@@ -87,9 +87,11 @@ $bc-cl: #ffffff;
                 border-radius: 10px;   
                 text-align: center;
                 transition: border-color 0.5s, background-color 0.5s;
+                @media(min-width: 767.99px){
                     &:hover{
                         background-color: #e6e5e5;
                     }
+                }
             	}
         }
 }
