@@ -307,20 +307,16 @@ ul {
   }
 }
 
-h2 {
-  text-indent: 20px;
-}
-
 .contact {
   border: solid 3px #bfbfbf;
   display: block;
   position: absolute;
   background: #ffffff;
-  margin: -750px auto 500px;
+  margin: -450px auto 400px;
   max-width: 1300px;
   left: 0;
   right: 0;
-  padding: 20px 20px;
+  padding: 10px 0;
 }
 @media (max-width: 1400px) {
   .contact {
@@ -330,7 +326,7 @@ h2 {
 }
 @media (max-width: 1200px) {
   .contact {
-    margin: -750px auto 500px;
+    margin: -450px auto 400px;
     max-width: 650px;
   }
 }
@@ -347,29 +343,29 @@ h2 {
   grid-template-columns: repeat(4, 1fr);
 }
 .contact__content ._div {
-  padding: 0 20px;
   border-right: solid 2px #bfbfbf;
 }
 .contact__content ._div:last-child {
   border-right: none;
 }
 .contact__content ._div h4 {
-  margin: 10px 0;
+  font-size: 14px;
+  margin: 0 0 10px 0;
 }
 .contact__content ._div p {
-  font-size: 14px;
-  margin: 6px 0;
+  font-size: 12px;
+  margin: 4px 0;
   text-indent: 14px;
 }
 .contact__content ._div img {
   float: left;
   margin-right: 10px;
-  width: 55px;
+  width: 45px;
 }
 @media (max-width: 1200px) {
   .contact__content {
     grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    gap: 10px;
   }
   .contact__content ._div:nth-child(even) {
     border-right: none;
@@ -380,6 +376,7 @@ h2 {
     grid-template-columns: 1fr;
   }
   .contact__content ._div {
+    margin-left: 30px;
     padding: 0;
     border-right: none;
   }
@@ -393,4 +390,8 @@ h2 {
   .contact__block {
     margin: 0;
   }
+}
+
+h2 {
+  text-indent: 50px;
 }
