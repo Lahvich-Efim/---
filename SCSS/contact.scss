@@ -8,7 +8,7 @@ h2 {
         text-indent: 20px;
 }
 .contact {
-    border: solid 2px #bfbfbf;
+    border: solid 3px #bfbfbf;
     display: block;
     position: absolute;
     background: $bc-cl;
@@ -79,26 +79,5 @@ h2 {
         @media (max-width: 768px) {
             margin: 0;
         }
-    }
-    &__map {
-        
-    }
-
-    // .contact__phone
-
-    &__phone {
-        
-    }
-
-    // .contact__email
-
-    &__email {
-        
-    }
-
-    // .contact__time
-
-    &__time {
-        
     }
 }
