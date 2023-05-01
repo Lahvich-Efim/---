@@ -19,7 +19,7 @@
             margin: 0 auto;
         } 
         span{
-            top: 14px;
+            top: 14.5px;
             transition: all 0.4s;
         }
         &:before, &:after{
@@ -27,20 +27,20 @@
             transition: all 0.4s;
         }
         &:before{
-            top: 5px;
+            top: 8px;
         }
         &:after{
-            bottom: 5px;
+            bottom: 8px;
         }
         &.open-menu span{
             opacity:0;
         }
         &.open-menu:before{
-            transform: rotate(38deg);
+            transform: rotate(40deg);
             top: 14px;
         }
         &.open-menu:after{
-            transform: rotate(-38deg);
+            transform: rotate(-40deg);
             bottom: 14px;
         }
     }

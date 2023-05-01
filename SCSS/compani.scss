@@ -10,8 +10,42 @@
     text-align: justify;
     text-indent: 25px;
     @media (max-width: 768px) {
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 }
 
+.main {
+    line-height: 30px;
+    font-size: 110%;   
+    h2 {
+        font-size: 140%;
+    } 
+    ul {
+        list-style-type: disc;
+    }
+    ol, ul {
+        text-indent: 0;
+        list-style-position: outside;
+        margin-left: 40px;
+        li {
+            padding-left: 20px;
+        }
+    }
+    @media (max-width: 480px) {
+        font-size: 3.6vw;
+        line-height: 6vw;
+        text-indent: 4.8vw;
+        h2{
+            font-size: 5vw;
+        }
+        ol, ul {
+            text-indent: 0;
+            list-style-position: outside;
+            margin-left: 4%;
+            li {
+                padding-left: 3%;
+            }
+        }
+}
+}

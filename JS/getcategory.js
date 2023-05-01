@@ -19,7 +19,7 @@ if (typeof window.DOMParser != "undefined") {
 else {
     xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
     xmlDoc.async = "false";
-    xmlDoc.load("C:\Users\efiml\OneDrive\Документы\Лабы\КЯР\Курсовая работа\HTML\catalog.xml");
+    xmlDoc.load("catalog.xml");
 }
 function get(p) {
     var tovars = xmlDoc.getElementsByTagName("category")[p].getElementsByTagName("tovar");
