@@ -458,11 +458,20 @@ ul {
   width: 200px;
   position: relative;
 }
+.item__stretchy-wrapper {
+  width: 100%;
+  padding-bottom: 100%;
+  position: relative;
+  display: grid;
+  align-items: center;
+}
+.item__stretchy-wrapper img {
+  position: absolute;
+  display: block;
+  width: 100%;
+}
 .item__content {
   margin: 5% 6%;
-}
-.item__content img {
-  width: 100%;
 }
 .item__title {
   margin-top: 10px;

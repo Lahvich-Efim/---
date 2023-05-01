@@ -25,7 +25,7 @@ else {
     let scidka = tovar.getElementsByTagName("skidka")[0].innerHTML;
     let cost_s = cost* ( 100 - scidka) / 100;
     str += "<div class=\"buy\">";
-    str += "<img class=\"buy__img\" src=\"" + tovar.getElementsByTagName("urlimg")[0].textContent + "\"><div><h3 class=\"buy__title\">" +
+    str += "<div class=\"buy__stretchy-wrapper\"><img class=\"buy__img\" src=\"" + tovar.getElementsByTagName("urlimg")[0].textContent + "\"></div><div><h3 class=\"buy__title\">" +
     tovar.getElementsByTagName("name")[0].textContent + "</h3><p class=\"buy__cost\">" +
     tovar.getElementsByTagName("cost")[0].textContent + " " + tovar.getElementsByTagName("cost")[0].getAttribute("unit") + "</p><p class=\"buy__scidka\">" +
     cost_s.toFixed(2) + " " + tovar.getElementsByTagName("cost")[0].getAttribute("unit") + "</p><p class=\"buy__nalich\"><span class=\"nalich\" style=\"color:";

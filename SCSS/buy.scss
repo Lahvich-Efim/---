@@ -96,10 +96,20 @@
                 font-size: 15px;
                 font-weight: 500;
             }
-            img {
-                margin: 0 2% 0 0;
-                float: left;
+            .stretchy-wrapper {
                 width: 180px;
+                padding-bottom: 180px;
+                float: left;
+                margin: 0 2% 0 0;
+                position: relative;
+                display:grid;
+                align-items: center;
+                img {
+                    position: absolute;
+                    display:block;
+                    width: 100%;
+                    
+                }
             }
         }
         .cost {
@@ -137,8 +147,9 @@
                 p {
                     font-size: 2.8vw;
                 }
-                img {
+                .stretchy-wrapper {
                     width: 34vw;
+                    padding-bottom: 34vw;
                 }
             }
             .cost {

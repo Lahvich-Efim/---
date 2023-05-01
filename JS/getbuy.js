@@ -27,7 +27,7 @@ else {
     let cost_s = cost* ( 100 - scidka) / 100;
     let cost_p = cost* scidka / 100;
     str += "<div class=\"inf\">";
-    str += "<img src=\"" + tovar.getElementsByTagName("urlimg")[0].textContent + "\"><h3>" +
+    str += "<div class=\"stretchy-wrapper\"><img src=\"" + tovar.getElementsByTagName("urlimg")[0].textContent + "\"></div><h3>" +
     tovar.getElementsByTagName("name")[0].textContent + "</h3><p>Цена: " +
     tovar.getElementsByTagName("cost")[0].textContent + " " + tovar.getElementsByTagName("cost")[0].getAttribute("unit") + "</p><p>Количество: " +
     tovar.getAttribute("number")  + " штук</p><p>Наличие: ";

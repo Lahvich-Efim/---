@@ -77,12 +77,22 @@ $b: 20px;
     width: 200px;
     position: relative;
     // .item__content
-
+    &__stretchy-wrapper {
+        width: 100%;
+        padding-bottom: 100%;
+        position: relative;
+        display:grid;
+        align-items: center;
+        img{
+            position: absolute;
+            display:block;
+            width: 100%;
+            
+        }
+    }
     &__content {
         margin: 5% 6%;
-        img{
-            width: 100%;
-        }
+        
     }
 
     // .item__title

@@ -30,7 +30,7 @@ function get(p) {
         let scidka = tovars[i].getElementsByTagName("skidka")[0].innerHTML;
         let cost_s = cost* ( 100 - scidka) / 100;
         str += "<div class=\"item\"><div class = \"item__content\">";
-        str += "<img src=\"" + tovars[i].getElementsByTagName("urlimg")[0].textContent + "\"><h4 class=\"item__title\">" +
+        str += "<div class=\"item__stretchy-wrapper\"><img src=\"" + tovars[i].getElementsByTagName("urlimg")[0].textContent + "\"></div><h4 class=\"item__title\">" +
             tovars[i].getElementsByTagName("name")[0].textContent + "</h4><p class=\"item__cost\">" +
             cost +  " " + tovars[i].getElementsByTagName("cost")[0].getAttribute("unit") + "</p><p class=\"item__scidka\">" +
             cost_s.toFixed(2) + " " + tovars[i].getElementsByTagName("cost")[0].getAttribute("unit") + "</p><a href=\"tovar.html?category="+ p + "&tovar=" + i + "\"class=\"item__button\">Купить</a>";

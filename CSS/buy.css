@@ -147,10 +147,19 @@ ul {
   font-size: 15px;
   font-weight: 500;
 }
-.items__content .inf img {
-  margin: 0 2% 0 0;
-  float: left;
+.items__content .inf .stretchy-wrapper {
   width: 180px;
+  padding-bottom: 180px;
+  float: left;
+  margin: 0 2% 0 0;
+  position: relative;
+  display: grid;
+  align-items: center;
+}
+.items__content .inf .stretchy-wrapper img {
+  position: absolute;
+  display: block;
+  width: 100%;
 }
 .items__content .cost {
   border-top: 1px solid #999999;
@@ -186,8 +195,9 @@ ul {
   .items__content .inf p {
     font-size: 2.8vw;
   }
-  .items__content .inf img {
+  .items__content .inf .stretchy-wrapper {
     width: 34vw;
+    padding-bottom: 34vw;
   }
   .items__content .cost__scidka {
     font-size: 2.5vw;
