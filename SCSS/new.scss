@@ -3,3 +3,43 @@
 @import "_footer.scss";
 @import "_style.scss";
 
+.margin {
+    max-width: 1200px;
+    @media (max-width: $md3+px) {
+        max-width: 550px;
+    }
+}
+
+.new {
+    background-color: #F6F6F6;
+    border: solid 1px #b8b8b8;
+    &__content {
+        margin: 10px;
+    }
+
+    // .new__title
+    &__img {
+        display: block;
+        margin: 30px auto;
+        width: 768px;
+    }
+    &__title {
+        text-indent: 15px;
+    }
+
+    // .new__description
+
+    &__description {
+        margin: 0 40px;
+        padding-bottom: 10px;
+        border-bottom: solid 1px #626262;
+    }
+
+    // .new__data
+
+    &__data {
+        color:#626262;
+        font-size: 14px;
+        margin: 20px 0 20px 40px; 
+    }
+}
