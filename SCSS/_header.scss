@@ -1,7 +1,6 @@
 
 $bc-cl: #ffffff;
 
-
 .header {
     border-bottom: solid 1px #c0c0c0;
     box-shadow: 0 0 5px 2px rgb(181, 181, 181);
@@ -23,9 +22,17 @@ $bc-cl: #ffffff;
             @media (max-width: 767.99px) {
                 display: block;
             }
+            @media (max-width: 1000px) {
+                flex: 1 0 110px;
+            }
             img{
+                @media (max-width: 1000px) {
+                    width: 120px;
+                    padding: 5px;
+                }
                 @media (max-width: 767.99px) {
                     width: 90px;
+                    padding: 0;
                 }
                 margin: 6px 15px 0px;
                 width: 180px;
@@ -38,7 +45,7 @@ $bc-cl: #ffffff;
 }
 .contacts {
     
-    @media (max-width: 767.99px) {
+    @media (max-width: 1000px) {
         display: none;
     }
     a{
@@ -61,14 +68,18 @@ $bc-cl: #ffffff;
 
 .menu {
 		// .menu__body
+        
         @media (max-width:767.99px) {
                     display: none;
                 }
 		&__body {
             display: flex;
             padding: 0;
-            margin: 10px -10px;
+            margin: 10px -10p;
             vertical-align: middle;
+            @media (max-width:1000px) {
+                margin-top: 25px;
+            }
                 
 		}
 

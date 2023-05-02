@@ -1,8 +1,9 @@
 $MaxMidthContainer: 1440;
 $md1: $MaxMidthContainer + 12;
-$md2: 991.99;
+$md2: 999.99;
 $md3: 767.99;
 $md4: 479.99;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap');
 
  body, a, span
  {
@@ -38,8 +39,11 @@ ul{
 }
 
 .margin{
-    margin-top: 150px;
-    @media (max-width: $md3+px) {
-        margin-top: 90px;
+    margin-top: 140px;
+    @media (max-width: $md2+px) {
+        margin-top: 110px;
+        @media (max-width: $md3+px) {
+            margin-top: 90px;
+        }
     }
 }

@@ -3,10 +3,9 @@
 @import "_footer.scss";
 @import "_style.scss";
 @import "_aside.scss";
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600&display=swap');
 
 .aside {
-    @media (max-width: 1025px){
+    @media (max-width: 1000px){
         display: none;
     }
 }
@@ -14,7 +13,7 @@
     display: grid;
     grid-template-columns: 300px auto;
     gap: 20px;
-    @media (max-width: 1025px) {
+    @media (max-width: 1000px) {
         display: block;
     }
 }
@@ -74,7 +73,7 @@
 
 		&__nalich {
             margin-top: 15px;
-            font-size: 20px;
+            font-size: 17px;
             font-weight: 500;
             .nalich
             {
@@ -103,10 +102,17 @@
         @media(max-width: 768px) {
             padding-bottom: 40px;
             &__stretchy-wrapper  {
-                margin: 0 auto;
                 display: block;
-                width: 370px;
+                width: auto;
+                height: auto;
                 float: none;
+                padding: 0;
+                img  {
+                    position: relative;
+                    width: 370px;
+                    margin: 0 auto;
+                    display: block;
+                }
             }
             &__buy {
                 display: block;
@@ -120,7 +126,9 @@
             @media (max-width: 440px) {
                 &__stretchy-wrapper {
                     width: 100%;
-                    padding-bottom: 76%;
+                    img {
+                        width: 100%;
+                    }
                 }
                 &__buy {
                     width: 18%;
@@ -137,7 +145,15 @@
                     font-size: 5.4vw;
                 }
                 &__nalich {
-                    font-size: 4.5vw;
+                    font-size: 3.6vw;
+                    .nalich
+                    {
+                        padding-right: 5%;
+                    }
+                    .code
+                    {
+                        padding-left: 5%;
+                    }
                 }
             }
         }
@@ -187,6 +203,42 @@
         line-height: 22px;
         margin: 0 20px;
         text-align: justify;
+        line-height: 30px; 
+        font-size: 110%;  
+        h2 {
+        font-size: 140%;
+        } 
+    ul {
+        list-style-type: disc;
+    }
+    ol, ul {
+        text-indent: 0;
+        list-style-position: outside;
+        margin-left: 40px;
+        li {
+            padding-left: 20px;
+        }
+    }
+    @media (max-width: 768px) {
+        font-size: 90%; 
+        line-height: 20px;
+    }
+    @media (max-width: 480px) {
+        font-size: 3vw;
+        line-height: 4vw;
+        text-indent: 4vw;
+        h2{
+            font-size: 4vw;
+        }
+        ol, ul {
+            text-indent: 0;
+            list-style-position: outside;
+            margin-left: 4%;
+            li {
+                padding-left: 3%;
+            }
+        }
+    }
         
     }
     &__characteristic {
@@ -194,9 +246,7 @@
             width: 100%;
             margin: 40px 0;
             border-collapse: collapse;
-            @media (max-width: 440px) {
-                font-size: 3.7vw;
-            }
+            
             th, td {
                 border-style: solid;
                 border-width: 1px;
@@ -210,13 +260,19 @@
                 font-size: 20px;
                 text-align: left;
             }
+            @media (max-width: 480px) {
+                font-size: 3.7vw;
+                th{
+                    font-size: 4vw;
+                }
+            }
         }
     }
     @media(max-width: 768px) {
         &__opisanie {
             text-indent: 15px;
             margin: 0;
-            img,  {
+            img  {
                 width: 70%;
             }
             iframe {

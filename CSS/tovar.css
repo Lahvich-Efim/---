@@ -24,13 +24,25 @@
     display: block;
   }
 }
+@media (max-width: 1000px) {
+  .column__logo {
+    flex: 1 0 110px;
+  }
+}
 .column__logo img {
   margin: 6px 15px 0px;
   width: 180px;
 }
+@media (max-width: 1000px) {
+  .column__logo img {
+    width: 120px;
+    padding: 5px;
+  }
+}
 @media (max-width: 767.99px) {
   .column__logo img {
     width: 90px;
+    padding: 0;
   }
 }
 .column__second-header {
@@ -38,7 +50,7 @@
   flex: 1 0 auto;
 }
 
-@media (max-width: 767.99px) {
+@media (max-width: 1000px) {
   .contacts {
     display: none;
   }
@@ -67,8 +79,13 @@
 .menu__body {
   display: flex;
   padding: 0;
-  margin: 10px -10px;
+  margin: 10px -10p;
   vertical-align: middle;
+}
+@media (max-width: 1000px) {
+  .menu__body {
+    margin-top: 25px;
+  }
 }
 .menu__link {
   flex: 1 0 auto;
@@ -206,7 +223,7 @@
 .footer__column {
   flex: 1 0 auto;
 }
-@media (max-width: 991.99px) {
+@media (max-width: 1000px) {
   .footer__column {
     margin-bottom: 50px;
   }
@@ -299,9 +316,14 @@ ul {
 }
 
 .margin {
-  margin-top: 150px;
+  margin-top: 140px;
 }
-@media (max-width: 767.99px) {
+@media (max-width: 999.99px) {
+  .margin {
+    margin-top: 110px;
+  }
+}
+@media (max-width: 999.99px) and (max-width: 767.99px) {
   .margin {
     margin-top: 90px;
   }
@@ -384,7 +406,7 @@ ul {
   border: 0;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1000px) {
   .aside {
     display: none;
   }
@@ -395,7 +417,7 @@ ul {
   grid-template-columns: 300px auto;
   gap: 20px;
 }
-@media (max-width: 1025px) {
+@media (max-width: 1000px) {
   .margin {
     display: block;
   }
@@ -454,7 +476,7 @@ ul {
 }
 .tovar .buy__nalich {
   margin-top: 15px;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 500;
 }
 .tovar .buy__nalich .nalich {
@@ -480,10 +502,17 @@ ul {
     padding-bottom: 40px;
   }
   .tovar .buy__stretchy-wrapper {
+    display: block;
+    width: auto;
+    height: auto;
+    float: none;
+    padding: 0;
+  }
+  .tovar .buy__stretchy-wrapper img {
+    position: relative;
+    width: 370px;
     margin: 0 auto;
     display: block;
-    width: 370px;
-    float: none;
   }
   .tovar .buy__buy {
     display: block;
@@ -498,7 +527,9 @@ ul {
 @media (max-width: 768px) and (max-width: 440px) {
   .tovar .buy__stretchy-wrapper {
     width: 100%;
-    padding-bottom: 76%;
+  }
+  .tovar .buy__stretchy-wrapper img {
+    width: 100%;
   }
   .tovar .buy__buy {
     width: 18%;
@@ -515,7 +546,13 @@ ul {
     font-size: 5.4vw;
   }
   .tovar .buy__nalich {
-    font-size: 4.5vw;
+    font-size: 3.6vw;
+  }
+  .tovar .buy__nalich .nalich {
+    padding-right: 5%;
+  }
+  .tovar .buy__nalich .code {
+    padding-left: 5%;
   }
 }
 .tovar .info {
@@ -553,16 +590,51 @@ ul {
   line-height: 22px;
   margin: 0 20px;
   text-align: justify;
+  line-height: 30px;
+  font-size: 110%;
+}
+.content-info__opisanie h2 {
+  font-size: 140%;
+}
+.content-info__opisanie ul {
+  list-style-type: disc;
+}
+.content-info__opisanie ol, .content-info__opisanie ul {
+  text-indent: 0;
+  list-style-position: outside;
+  margin-left: 40px;
+}
+.content-info__opisanie ol li, .content-info__opisanie ul li {
+  padding-left: 20px;
+}
+@media (max-width: 768px) {
+  .content-info__opisanie {
+    font-size: 90%;
+    line-height: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .content-info__opisanie {
+    font-size: 3vw;
+    line-height: 4vw;
+    text-indent: 4vw;
+  }
+  .content-info__opisanie h2 {
+    font-size: 4vw;
+  }
+  .content-info__opisanie ol, .content-info__opisanie ul {
+    text-indent: 0;
+    list-style-position: outside;
+    margin-left: 4%;
+  }
+  .content-info__opisanie ol li, .content-info__opisanie ul li {
+    padding-left: 3%;
+  }
 }
 .content-info__characteristic table {
   width: 100%;
   margin: 40px 0;
   border-collapse: collapse;
-}
-@media (max-width: 440px) {
-  .content-info__characteristic table {
-    font-size: 3.7vw;
-  }
 }
 .content-info__characteristic table th, .content-info__characteristic table td {
   border-style: solid;
@@ -576,6 +648,14 @@ ul {
   font-weight: 500;
   font-size: 20px;
   text-align: left;
+}
+@media (max-width: 480px) {
+  .content-info__characteristic table {
+    font-size: 3.7vw;
+  }
+  .content-info__characteristic table th {
+    font-size: 4vw;
+  }
 }
 @media (max-width: 768px) {
   .content-info__opisanie {
