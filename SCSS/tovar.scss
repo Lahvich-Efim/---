@@ -223,19 +223,19 @@
         font-size: 90%; 
         line-height: 20px;
     }
-    @media (max-width: 480px) {
-        font-size: 3vw;
-        line-height: 4vw;
-        text-indent: 4vw;
+    @media (max-width: 400px) {
+        font-size: 3.5vw;
+        line-height: 5vw;
+        text-indent: 6vw;
         h2{
-            font-size: 4vw;
+            font-size: 5vw;
         }
         ol, ul {
             text-indent: 0;
             list-style-position: outside;
             margin-left: 4%;
             li {
-                padding-left: 3%;
+                padding-left: 2%;
             }
         }
     }

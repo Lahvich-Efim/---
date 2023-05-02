@@ -613,14 +613,14 @@ ul {
     line-height: 20px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .content-info__opisanie {
-    font-size: 3vw;
-    line-height: 4vw;
-    text-indent: 4vw;
+    font-size: 3.5vw;
+    line-height: 5vw;
+    text-indent: 6vw;
   }
   .content-info__opisanie h2 {
-    font-size: 4vw;
+    font-size: 5vw;
   }
   .content-info__opisanie ol, .content-info__opisanie ul {
     text-indent: 0;
@@ -628,7 +628,7 @@ ul {
     margin-left: 4%;
   }
   .content-info__opisanie ol li, .content-info__opisanie ul li {
-    padding-left: 3%;
+    padding-left: 2%;
   }
 }
 .content-info__characteristic table {
