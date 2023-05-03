@@ -13,6 +13,7 @@
 .new {
     background-color: #F6F6F6;
     border: solid 1px #b8b8b8;
+    text-indent: 25px;
     &__content {
         margin: 10px;
     }
@@ -21,7 +22,7 @@
     &__img {
         display: block;
         margin: 30px auto;
-        width: 768px;
+        width: 700px;
     }
     &__title {
         text-indent: 15px;
@@ -41,5 +42,24 @@
         color:#626262;
         font-size: 14px;
         margin: 20px 0 20px 40px; 
+    }
+    @include text_adapt;
+    
+    @media (max-width: 768px) {
+        &__img {
+            width: 100%;
+        } 
+        &__content {
+            margin: 2%;
+        }
+        &__description {
+            margin: 0;
+        }
+        &__data {
+            margin: 2% 0; 
+            @media (max-width: 400px) {
+                font-size: 3.5vw;
+            }
+        }
     }
 }

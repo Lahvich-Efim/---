@@ -84,7 +84,6 @@
         gap: 25px;
         .inf{
             display: block;
-            height: 180px; 
             h3{
                 margin-top: 0;
                 display: block;
@@ -138,7 +137,7 @@
             font-size: 4.4vw;
         }
         &__content {
-            grid-template-rows: 35vw 22vw;
+            grid-template-rows: auto 22vw;
             .inf {
                 h3{
                     font-size: 3.5vw;                    
