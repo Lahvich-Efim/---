@@ -22,7 +22,8 @@ else {
     xmlDoc.load("catalog.xml");
 }
 function get(p) {
-    var tovars = xmlDoc.getElementsByTagName("category")[p].getElementsByTagName("tovar");
+    var categorys = xmlDoc.getElementsByTagName("category");
+    var tovars = categorys[p].getElementsByTagName("tovar");
     var str = "";
     var header = xmlDoc.getElementsByTagName("category")[p].getAttribute('name');
     for (i = 0; i < tovars.length; i++) {

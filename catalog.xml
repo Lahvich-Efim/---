@@ -513,8 +513,8 @@
         </tovar>
         <tovar availability="1" number="1">
             <urlimg>img/tovar/1_7.webp</urlimg>
-            <name>Пленочный инфракрасный теплый пол Rexva Xica PTC305 (Саморегули<wbr/>рующийся) 0.5 м2
-                (ширина 50см)</name>
+            <name>Пленочный инфракрасный теплый пол Rexva Xica PTC305 (Саморегули<wbr />рующийся)
+                0.5 м2 (ширина 50см)</name>
             <cost unit="руб.">27</cost>
             <skidka>5</skidka>
             <code>Rexva Xica PTC305</code>
@@ -633,7 +633,7 @@
         <tovar availability="1" number="1">
             <urlimg>img/tovar/1_8.webp</urlimg>
             <name>Пленочный инфракрасный теплый пол Eastec "Истэк" Energy Save PTC
-                 1 м2 (ширина 50см)</name>
+                1 м2 (ширина 50см)</name>
             <cost unit="руб.">80</cost>
             <skidka>5</skidka>
             <code>"Истэк" Energy Save PTC</code>
@@ -785,16 +785,1325 @@
             </characteristic>
         </tovar>
     </category>
-</catalog>
-
-
-<!--
-    
-    <tovar availability="1" number="1">    
-            <urlimg>img/tovar/1_2.webp</urlimg>
+    <category name="Винтажные электроустановочные изделия">
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/2_1.webp</urlimg>
+            <name>Втулка для сквозного отверстия пластиковая Bironi, чёрная</name>
+            <cost unit="руб.">2</cost>
+            <skidka>10</skidka>
+            <code>B1-VT-23</code>
+            <opisanie>
+                <p>Втулка для сквозного отверстия пластиковая Bironi, коричневая</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Bironi</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>Черный</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Втулка</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/2_2.webp</urlimg>
+            <name>Втулка для сквозного отверстия пластиковая Bironi, коричневая</name>
+            <cost unit="руб.">2</cost>
+            <skidka>10</skidka>
+            <code>B1-VT-22</code>
+            <opisanie>
+                <p>Втулка для сквозного отверстия пластиковая Bironi, коричневая</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Bironi</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>Коричневый</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Втулка</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/2_3.webp</urlimg>
+            <name>Втулка для сквозного отверстия пластиковая Bironi, слоновая кость</name>
+            <cost unit="руб.">2</cost>
+            <skidka>10</skidka>
+            <code>B1-VT-211</code>
+            <opisanie>
+                <p>Втулка для сквозного отверстия пластиковая Bironi, слоновая кость</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Bironi</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>Слоновая кость</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Втулка</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/2_4.webp</urlimg>
+            <name>Серия Loft (ПДК) 2х0.75 ГРАНАТОВЫЙ "ШЕЛК"</name>
+            <cost unit="руб./м">2.5</cost>
+            <skidka>10</skidka>
+            <code>ПДК2075-К05</code>
+            <opisanie>
+                <p>Провод серии Loft, имеет уникальные цветовые решения. Применяется для подключения
+                    стационарных и переносных осветительных приборов, до 1200 Вт.</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>ОТМ-Групп</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Конструктивные особенности</th>
+                    </tr>
+                    <tr>
+                        <td>Цвет изоляции</td>
+                        <td>Белый</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Вид провода</td>
+                        <td>Витой</td>
+                    </tr>
+                    <tr>
+                        <td>Ед. измерения</td>
+                        <td>Метр</td>
+                    </tr>
+                    <tr>
+                        <td>Сечение провода</td>
+                        <td>3×1,5</td>
+                    </tr>
+                    <tr>
+                        <td>Состояние</td>
+                        <td>Новое</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия </td>
+                        <td>Проводка</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>Гранатовый</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/2_5.webp</urlimg>
+            <name>Серия Loft (ПДК) 2х0.75 СЕРЕБРИСТЫЙ "ШЕЛК"</name>
+            <cost unit="руб./м">2.5</cost>
+            <skidka>10</skidka>
+            <code>Код: ПДК2075-К02</code>
+            <opisanie>
+                <p>Провод серии Loft, имеет уникальные цветовые решения. Применяется для подключения
+                    стационарных и переносных осветительных приборов, до 1200 Вт.</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>ОТМ-Групп</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Конструктивные особенности</th>
+                    </tr>
+                    <tr>
+                        <td>Цвет изоляции</td>
+                        <td>Белый</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Проводка</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>Белый</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/2_6.webp</urlimg>
+            <name>Ретро выключатель Basic белый, KBSw1-01 Keruda одноклавишный проходной</name>
+            <cost unit="руб.">12.33</cost>
+            <skidka>10</skidka>
+            <code>KBSw1-01 Keruda</code>
+            <opisanie>
+                <p>Ретро выключатель Basic белый, KBSw1-01 Keruda одноклавишный проходной</p>
+                <p>Коллекция: Basic</p>
+                <p>Цвет от производителя: белый</p>
+                <p>Тип монтажа: Наружный / открытый</p>
+                <p>Тип выключателя: Одноклавишный проходной</p>
+                <p>Тип механизма: Поворотный</p>
+                <p>Основной материал: Пластик</p>
+                <p>Проходной: Да</p>
+                <p>Сила тока: 10 А</p>
+                <p>Степень защиты IP: 20</p>
+                <p>Напряжение до: 220-250</p>
+                <p>Размеры: D63 H55</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Вес</td>
+                        <td>50 г</td>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>ОТМ-Групп</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет корпуса</td>
+                        <td>Белый</td>
+                    </tr>
+                    <tr>
+                        <td>Материал корпуса</td>
+                        <td>Пластик</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <td>Способ установки</td>
+                        <td>Наружный</td>
+                    </tr>
+                    <tr>
+                        <td>Срок службы</td>
+                        <td>20 лет</td>
+                    </tr>
+                    <tr>
+                        <td>Тип выключателя</td>
+                        <td>Поворотный</td>
+                    </tr>
+                    <tr>
+                        <td>Состояние</td>
+                        <td>Новое</td>
+                    </tr>
+                    <tr>
+                        <td>Количество клавиш</td>
+                        <td>1 шт.</td>
+                    </tr>
+                    <tr>
+                        <td>Номинальный ток</td>
+                        <td>10 А</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Габаритные размеры</th>
+                    </tr>
+                    <tr>
+                        <td>Высота</td>
+                        <td>60 мм</td>
+                    </tr>
+                    <tr>
+                        <td>Ширина</td>
+                        <td>65 мм</td>
+                    </tr>
+                    <tr>
+                        <td>Длина</td>
+                        <td>65 мм</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Вес</td>
+                        <td>50.0 (г)</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>Белый</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Выключатель</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/2_7.webp</urlimg>
+            <name>IE Розетка с заземляющим контактом, 220/16А (чёрная)</name>
+            <cost unit="руб.">6.53</cost>
+            <skidka>10</skidka>
+            <code>С-2002</code>
+            <opisanie>
+                <p>Евророзетка для открытой установки, из АБС-пластика, 16А, для установки на ровной
+                    поверхности стены или специальной подложке Intrior Elc.</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Interior Electric</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <td>Материал корпуса</td>
+                        <td>Пластик</td>
+                    </tr>
+                    <tr>
+                        <td>Способ установки</td>
+                        <td>Накладной</td>
+                    </tr>
+                    <tr>
+                        <td>Номинальная сила тока</td>
+                        <td>16 А</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет корпуса</td>
+                        <td>Черный</td>
+                    </tr>
+                    <tr>
+                        <td>Вес</td>
+                        <td>50 г</td>
+                    </tr>
+                    <tr>
+                        <td>Срок службы</td>
+                        <td>20 лет</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Дополнительные характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Материал контакта</td>
+                        <td>Бронза</td>
+                    </tr>
+                    <tr>
+                        <td>Заземление</td>
+                        <td>Да</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Вес</td>
+                        <td>50.0 (г)</td>
+                    </tr>
+                    <tr>
+                        <td>Номинальный ток</td>
+                        <td>16 А</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>Черный</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Розетка</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/2_8.webp</urlimg>
+            <name>Подложка на бревно 3-ая, КРУГЛАЯ, без отделки Keruda</name>
+            <cost unit="руб.">14.51</cost>
+            <skidka>10</skidka>
+            <code>ЭСБ003-220КР</code>
+            <opisanie>
+                <p>Подложка на бревно 3-ая, КРУГЛАЯ, без отделки</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные атрибуты</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>ОТМ-Групп</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <td>Материал корпуса</td>
+                        <td>Дерево</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Рамка</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+    </category>
+    <category name="Электроустановочные изделия">
+        <tovar availability="1" number="2">
+            <urlimg>img/tovar/3_1.webp</urlimg>
+            <name>Вилка 16А 2Р, прямой каб. ввод, резина, черный</name>
+            <cost unit="руб.">9.40</cost>
+            <skidka>5</skidka>
+            <code>50181</code>
+            <opisanie>
+                <h3>Общие характеристики:</h3>
+                <ul>
+                    <li>Вилки, розетки, многорозеточные блоки, адаптеры серии Элиум</li>
+                    <li>Немецкий стандарт</li>
+                    <li>Вилки 2К+З - 16 А - с рычагом для извлечения вилки из розетки - пластик</li>
+                    <li>Рычаг, позволяющий вынимать вилку из розетки без усилий</li>
+                    <li>Винтовой зажим</li>
+                    <li>Винт сбоку</li>
+                    <li>Максимальный размер кабеля: 3х1,5 мм²</li>
+                    <li>Соответствуют ГОСТ Р 51322.1-99</li>
+                </ul>
+                <h3>Характеристики продукта:</h3>
+                <ul>
+                    <li>Вилка</li>
+                    <li>Цвет: черный</li>
+                </ul>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Legrand</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Франция</td>
+                    </tr>
+                    <tr>
+                        <td>Количество полюсов</td>
+                        <td>2 шт.</td>
+                    </tr>
+                    <tr>
+                        <td>Материал корпуса</td>
+                        <td>Пластик</td>
+                    </tr>
+                    <tr>
+                        <td>Номинальная сила тока</td>
+                        <td>16 А</td>
+                    </tr>
+                    <tr>
+                        <td>Срок службы</td>
+                        <td>10 лет</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет корпуса</td>
+                        <td>Черный</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Линейка продукции</td>
+                        <td>Elium</td>
+                    </tr>
+                    <tr>
+                        <td>Состояние</td>
+                        <td>Новое</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Вилка силовая</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="2">
+            <urlimg>img/tovar/3_2.webp</urlimg>
+            <name>Вилка с поворотным механизмом 360 16А 2Р+Е, винтовой зажим, белый</name>
+            <cost unit="руб.">16.86</cost>
+            <skidka>5</skidka>
+            <code>50172</code>
+            <opisanie>
+                <h3>Общие характеристики:</h3>
+                <ul>
+                    <li>Вилки, розетки, многорозеточные блоки, адаптеры серии Элиум</li>
+                    <li>Немецкий стандарт</li>
+                    <li>Вилки 2К+З - 16 А - с поворотным механизмом</li>
+                    <li>Винтовой зажим</li>
+                    <li>Максимальный размер кабеля: 3х0,5 мм²</li>
+                    <li>Возможность поворачивать кабель на 360°</li>
+                    <li>Соответствуют ГОСТ Р 51322.1-99</li>
+                </ul>
+                <h3>Характеристики продукта:</h3>
+                <ul>
+                    <li>Вилка</li>
+                    <li>Цвет: белый</li>
+                </ul>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Legrand</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Франция</td>
+                    </tr>
+                    <tr>
+                        <td>Количество полюсов</td>
+                        <td>2 шт.</td>
+                    </tr>
+                    <tr>
+                        <td>Материал корпуса</td>
+                        <td>Пластик</td>
+                    </tr>
+                    <tr>
+                        <td>Номинальная сила тока</td>
+                        <td>16 А</td>
+                    </tr>
+                    <tr>
+                        <td>Срок службы</td>
+                        <td>10 лет</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет корпуса</td>
+                        <td>Белый</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Линейка продукции</td>
+                        <td>Elium</td>
+                    </tr>
+                    <tr>
+                        <td>Состояние</td>
+                        <td>Новое</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Вилка силовая</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="2">
+            <urlimg>img/tovar/3_3.webp</urlimg>
+            <name>Розетка силовая 20A, 2P+E, 80х80мм, защ. шторки, сл. кость</name>
+            <cost unit="руб.">108.84</cost>
+            <skidka>5</skidka>
+            <code>55422</code>
+            <opisanie>
+                <h3>Общие характеристики:</h3>
+                <ul>
+                    <li>Вилки и розетки 20 А и 32 А</li>
+                    <li>Встраиваемые розетки</li>
+                    <li>Лицевая панель 80x80 мм</li>
+                    <li>Установка в коробку накладного монтажа Кат. № 0 554 39 или в монтажные
+                        коробки: <ul style="list-style: none;">
+                            <li>- универсальные Кат. № 0 801 01/21</li>
+                            <li> - для сухих перегородок
+                                Кат. № 0 800 41/51/61</li>
+                            <li> - для кирпичных стен Кат. № 0 801 41/51/61</li>
+                            <li>-
+                                для стен из монолитного бетона Кат. № 0 819 40/41</li>
+                        </ul>
+                    </li>
+                </ul>
+                <h3>Характеристики продукта:</h3>
+                <ul>
+                    <li>Розетка 2К+З - 20 А</li>
+                    <li>С защитными шторками</li>
+                    <li>Крепление на винтах</li>
+                    <li>Цвет: слоновая кость</li>
+                </ul>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Legrand</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Франция</td>
+                    </tr>
+                    <tr>
+                        <td>Количество полюсов</td>
+                        <td>2 шт.</td>
+                    </tr>
+                    <tr>
+                        <td>Материал корпуса</td>
+                        <td>Пластик</td>
+                    </tr>
+                    <tr>
+                        <td>Номинальная сила тока</td>
+                        <td>20 А</td>
+                    </tr>
+                    <tr>
+                        <td>Срок службы</td>
+                        <td>10 лет</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Состояние</td>
+                        <td>Новое</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Розетка силовая</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет корпуса</td>
+                        <td>Слоновая кость</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/3_4.webp</urlimg>
+            <name>Коробка накладная для розеток 20А, 82х82мм, 40мм глубиной, сл. кость</name>
+            <cost unit="руб.">19.31</cost>
+            <skidka>5</skidka>
+            <code>55439</code>
+            <opisanie>
+                <h3>Общие характеристики:</h3>
+                <ul>
+                    <li>Вилки и розетки 20 А и 32 А</li>
+                    <li>Коробки накладного монтажа</li>
+                    <li>Для встраиваемых розеток с лицевой панелью 80x80 мм</li>
+                </ul>
+                <h3>Характеристики продукта:</h3>
+                <ul>
+                    <li>Коробка накладного монтажа</li>
+                    <li>1 пост</li>
+                    <li>Глубина: 40 мм</li>
+                </ul>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Legrand</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Франция</td>
+                    </tr>
+                    <tr>
+                        <td>Материал корпуса</td>
+                        <td>Пластик</td>
+                    </tr>
+                    <tr>
+                        <td>Срок службы</td>
+                        <td>10 лет</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Состояние</td>
+                        <td>Новое</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Вилка силовая</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет корпуса</td>
+                        <td>Слоновая кость</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/3_5.webp</urlimg>
+            <name>Удлинитель Комфорт 5X2P+E нем.стд. со шторками, 1.5m., бело-серый</name>
+            <cost unit="руб.">94</cost>
+            <skidka>5</skidka>
+            <code>694631</code>
+            <opisanie>
+                <h3>Общие характеристики:</h3>
+                <ul>
+                    <li>Многорозеточные блоки «Комфорт»</li>
+                    <li>Оснащены кнопкой с индикацией одновременного включения/выключения всех
+                        приборов</li>
+                    <li>Поворачивающийся блок розеток</li>
+                    <li>Со шторками для защиты детей</li>
+                    <li>Увеличенный отступ между розетками для удобного подсоединения зарядных
+                        устройств, адаптеров и т.д.</li>
+                    <li>Возможность крепления к стене на винтах (винты не входят в комплект)</li>
+                    <li>Максимальная мощность 3500 Вт при 230 В - 16 А</li>
+                    <li>Соответствуют ГОСТ Р 51322.1-99 (МЭК 60884-1-94)</li>
+                </ul>
+                <h3>Характеристики продукта:</h3>
+                <ul>
+                    <li>Категория : Удлинители</li>
+                    <li>Бренд : Legrand</li>
+                    <li>Линейка продукции : Комфорт</li>
+                    <li>Тип изделия : удлинитель</li>
+                    <li>Количество постов : 5</li>
+                    <li>Степень защиты : IP20</li>
+                    <li>Материал : термопласт</li>
+                    <li>Тип поверхности : матовый</li>
+                    <li>Цвет : белый/серый</li>
+                    <li>Длина, m : 1,5</li>
+                </ul>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Legrand</td>
+                    </tr>
+                    <tr>
+                        <td>Состояние</td>
+                        <td>Новое</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Франция</td>
+                    </tr>
+                    <tr>
+                        <td>Степень защиты IP</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет корпуса</td>
+                        <td>Светло-серый</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Линейка продукции</td>
+                        <td>Комфорт</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Удлинитель</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/3_6.webp</urlimg>
+            <name>Вилка кабельная 32A, 3P+N+E 6h, 346_415VAC 50/60Hz, IP66/IP67/IP69, серия OPTIMA</name>
+            <cost unit="руб.">40</cost>
+            <skidka>5</skidka>
+            <code>218.3237</code>
+            <opisanie>
+                <p style="text-indent:0;">Категория : Промышленные разъемные соединения<br /> Бренд
+                    : Scame<br /> Линейка продукции : OPTIMA<br /> Тип изделия : вилка<br />
+                    Номинальный ток, A : 32<br /> Количество контактов : 3P + N + E<br /> Степень
+                    защиты : IP66<br /> Корпус : прямой<br /> Цвет : красный<br /> Способ крепления
+                    : кабельный</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Scame</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Италия</td>
+                    </tr>
+                    <tr>
+                        <td>Номинальная сила тока</td>
+                        <td>32 А</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет корпуса</td>
+                        <td>Красный</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Дополнительные характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Степень защиты IP</td>
+                        <td>66</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Линейка продукции</td>
+                        <td>Optima</td>
+                    </tr>
+                    <tr>
+                        <td>Состояние</td>
+                        <td>Новое</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Вилка силовая</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/3_7.webp</urlimg>
+            <name>Розетка кабельная 16A, 3P, 20_25VAC 50/60Hz, IP66/IP67, серия IEC309</name>
+            <cost unit="руб.">59.70</cost>
+            <skidka>5</skidka>
+            <code>335.1609</code>
+            <opisanie>
+                <p style="text-indent:0;">Категория : Промышленные разъемные соединения<br /> Бренд
+                    : Scame<br /> Линейка продукции : IEC39<br /> Тип изделия : розетка<br />
+                    Номинальный ток, A : 16<br /> Количество контактов : 3P<br /> Степень защиты :
+                    IP67<br /> Способ крепления : кабельный</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Scame</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Италия</td>
+                    </tr>
+                    <tr>
+                        <td>Номинальная сила тока</td>
+                        <td>16 А</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Дополнительные характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Степень защиты IP</td>
+                        <td>67</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Линейка продукции</td>
+                        <td>IEC39</td>
+                    </tr>
+                    <tr>
+                        <td>Состояние</td>
+                        <td>Новое</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Розетка силовая</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет корпуса</td>
+                        <td>Фиолетовый</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/3_8.webp</urlimg>
+            <name>Розетка с заземлением со шторками с крышкой, IP44, СИРЕНЕВЫЙ ТУМАН Schneider
+                Electric GLOSSA</name>
+            <cost unit="руб.">20</cost>
+            <skidka>15</skidka>
+            <code>GSL001448</code>
+            <opisanie>
+                <p>GLOSSA РОЗЕТКА с заземлением со шторками с крышкой, В СБОРЕ, IP44, СИРЕН. ТУМАН</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные атрибуты</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Schneider Electric</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет корпуса</td>
+                        <td>Серебристый</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Срок службы</td>
+                        <td>20.0 (лет)</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Розетка</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>Сиреневый туман</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+    </category>
+    <category name="Освещение">
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/4_1.webp</urlimg>
+            <name>Ретро лампа Эдисона UNIEL IL-V-A60-60/GOLDEN/E27 SW01</name>
+            <cost unit="руб.">8.85</cost>
+            <skidka>10</skidka>
+            <code>UL-00000476</code>
+            <opisanie>
+                <p>Лампы Эдисона или как в народе ретро (винтажные) - лампы под старину придуманы
+                    Томасом Эдисоном.</p>
+                <p>Оригинальный внешний вид поможет вам самостоятельно дополнить любой интерьере.
+                    Так же можно украсить загородный дом, уличное освещение. Преимущество ретро ламп
+                    в том , что они могут быть самостоятельным источником света, без люстр и
+                    плафонов. Для этого можно купить ретро (витой) провод и винтажные патроны в
+                    нашем магазине. Которые так же представлены в нашем каталоге.</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Uniel</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <td>Желтый</td>
+                        <td>Накаливания</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет свечения</td>
+                        <td>Желтый</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Мощность, Вт</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>Напряжение, В</td>
+                        <td>230</td>
+                    </tr>
+                    <tr>
+                        <td>Гарантийный талон</td>
+                        <td>Да</td>
+                    </tr>
+                    <tr>
+                        <td>Класс энергопотребления</td>
+                        <td>Е</td>
+                    </tr>
+                    <tr>
+                        <td>Размер лампы (DxL), мм</td>
+                        <td>60x113</td>
+                    </tr>
+                    <tr>
+                        <td>Световой поток, лм</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>Срок гарантии</td>
+                        <td>6 месяцев</td>
+                    </tr>
+                    <tr>
+                        <td>Срок годности</td>
+                        <td>неограничен</td>
+                    </tr>
+                    <tr>
+                        <td>Срок службы, ч</td>
+                        <td>5000</td>
+                    </tr>
+                    <tr>
+                        <td>Тип индивидуальной упаковки</td>
+                        <td>картон</td>
+                    </tr>
+                    <tr>
+                        <td>Угол светового потока</td>
+                        <td>360</td>
+                    </tr>
+                    <tr>
+                        <td>Цоколь</td>
+                        <td>E27</td>
+                    </tr>
+                    <tr>
+                        <td>Частота, Гц</td>
+                        <td>50</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/4_2.webp</urlimg>
+            <name>Ретро лампа Эдисона UNIEL светодиодная LED-ST64-5W-GOLDEN-E27 GLV22GO</name>
+            <cost unit="руб.">13</cost>
+            <skidka>10</skidka>
+            <code> UL-00002360</code>
+            <opisanie>
+                <p>Лампы светодиодные VINTAGE</p>
+                <p>LED-Vintage — новая серия ламп для декоративного оформления интерьеров.
+                    Современный экономичный светодиодный источник света в корпусе ретро-дизайна.
+                    Вместо вольфрамовой спирали используется светодиодный нитевой
+                    излучатель-филамент увеличенной длины. Благодаря низкой цветовой температуре
+                    2250 К в сочетании с колбой из золотистого стекла лампы LED-Vintage дают
+                    необыкновенно тёплое свечение.</p>
+                <p>Преимущества:</p>
+                <p>- Стильный и необычный дизайн.</p>
+                <p>- Значительная экономия электроэнергии, по сравнению с ретро-лампами с
+                    вольфрамовой нитью накала.</p>
+                <p>- Длительный срок службы — 25 000 часов.</p>
+                <ul>
+                    <li>E (новинка)Да</li>
+                    <li>Размер лампы (DxL), мм64*142</li>
+                    <li>Класс энергопотребленияA++</li>
+                    <li>Угол светового потока, °360</li>
+                    <li>Световой поток, лм450</li>
+                    <li>Диапазон рабочих температур, °С-20 \ +40</li>
+                    <li>Светтеплый</li>
+                    <li>ЦокольE27</li>
+                    <li>Срок гарантии36 месяцев</li>
+                    <li>Срок годностине ограничен</li>
+                    <li>Срок службы, ч30000</li>
+                    <li>Напряжение, В220-240</li>
+                    <li>Длина упаковки, см6,7</li>
+                    <li>Ширина упаковки, см6,7</li>
+                    <li>Высота упаковки, см15,5</li>
+                    <li>Вес брутто, кг0,106</li>
+                    <li>Мощность, Вт5</li>
+                </ul>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Uniel</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Мощность</td>
+                        <td>5.0 (Вт)</td>
+                    </tr>
+                    <tr>
+                        <td>Эквивалентная мощность лампы накаливания</td>
+                        <td>50.0 (Вт)</td>
+                    </tr>
+                    <tr>
+                        <td>Максимальное рабочее напряжение</td>
+                        <td>250.0 (В)</td>
+                    </tr>
+                    <tr>
+                        <td>Тип цоколя</td>
+                        <td>Резьба</td>
+                    </tr>
+                    <tr>
+                        <td>Минимальное рабочее напряжение</td>
+                        <td>200.0 (В)</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Лампа</td>
+                    </tr>
+                    <tr>
+                        <td>Цоколь</td>
+                        <td>E27</td>
+                    </tr>
+                    <tr>
+                        <td>Тип лампы</td>
+                        <td>Светодиодная лампа</td>
+                    </tr>
+                    <tr>
+                        <td>Форма лампочки</td>
+                        <td>Груша</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/4_3.webp</urlimg>
+            <name>Ретро лампа Эдисона UNIEL IL-V-L32A-60/GOLDEN/E27 CW01</name>
+            <cost unit="руб.">14</cost>
+            <skidka>10</skidka>
+            <code>UL-00000485</code>
+            <opisanie>
+                <p>Лампы Эдисона или как в народе ретро (винтажные) - лампы под старину придуманы
+                    Томасом Эдисоном.</p>
+                <p>Оригинальный внешний вид поможет вам самостоятельно дополнить любой интерьере.
+                    Так же можно украсить загородный дом, уличное освещение. Преимущество ретро ламп
+                    в том , что они могут быть самостоятельным источником света, без люстр и
+                    плафонов. Для этого можно купить ретро (витой) провод и винтажные патроны в
+                    нашем магазине. Которые так же представлены в нашем каталоге.</p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Производитель</td>
+                        <td>Uniel</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <td>Желтый</td>
+                        <td>Накаливания</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет свечения</td>
+                        <td>Желтый</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Мощность, Вт</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>Напряжение, В</td>
+                        <td>230</td>
+                    </tr>
+                    <tr>
+                        <td>Гарантийный талон</td>
+                        <td>Да</td>
+                    </tr>
+                    <tr>
+                        <td>Класс энергопотребления</td>
+                        <td>Е</td>
+                    </tr>
+                    <tr>
+                        <td>Размер лампы (DxL), мм</td>
+                        <td>32x185</td>
+                    </tr>
+                    <tr>
+                        <td>Световой поток, лм</td>
+                        <td>300</td>
+                    </tr>
+                    <tr>
+                        <td>Срок гарантии</td>
+                        <td>6 месяцев</td>
+                    </tr>
+                    <tr>
+                        <td>Срок годности</td>
+                        <td>неограничен</td>
+                    </tr>
+                    <tr>
+                        <td>Срок службы, ч</td>
+                        <td>5000</td>
+                    </tr>
+                    <tr>
+                        <td>Тип индивидуальной упаковки</td>
+                        <td>картон</td>
+                    </tr>
+                    <tr>
+                        <td>Угол светового потока</td>
+                        <td>360</td>
+                    </tr>
+                    <tr>
+                        <td>Цоколь</td>
+                        <td>E27</td>
+                    </tr>
+                    <tr>
+                        <td>Частота, Гц</td>
+                        <td>50</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/4_4.webp</urlimg>
+            <name>Светильник подвесной Fametto Vintage, DLC-V102 E27 RUST</name>
+            <cost unit="руб.">266</cost>
+            <skidka>5</skidka>
+            <code> UL-00000971</code>
+            <opisanie>
+                <p>
+                    <strong><a href="/g8769315-svetilniki" target="_self">Светильник</a>
+                        декоративный подвесной Fametto серия Vintage<span style="color:rgb(51, 51, 51);font-size:13px">DLC-V102 E27 RUST</span>.</strong>
+                </p>
+                <p>
+                    <strong>Без лампы.</strong>
+                </p>
+                <p>
+                    <strong>Материал: металл, цвет под ржавчину.</strong>
+                </p>
+                <p>
+                    <strong>d-360мм, h-1000мм.</strong>
+                </p>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2">Основные</th>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Россия</td>
+                    </tr>
+                    <tr>
+                        <td>Количество источников света</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Тип цоколя</td>
+                        <td>E27</td>
+                    </tr>
+                    <tr>
+                        <td>Напряжение сети</td>
+                        <td>220~240 В</td>
+                    </tr>
+                    <tr>
+                        <td>Степень защиты IP</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Тип выключателя</td>
+                        <td>Настенный</td>
+                    </tr>
+                    <tr>
+                        <td>Лампочки в комплекте</td>
+                        <td>Нет</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Материал плафона</td>
+                        <td>Металл</td>
+                    </tr>
+                    <tr>
+                        <td>Мощность лампы</td>
+                        <td>60.0 (Вт)</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>Медь</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Светильник</td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/4_.webp</urlimg>
             <name></name>
             <cost unit="руб."></cost>
-            <skidka></skidka>  
+            <skidka></skidka>
             <code></code>
             <opisanie>
             </opisanie>
@@ -809,6 +2118,182 @@
                     </tr>
                 </table>
             </characteristic>
-        </tovar> 
-        
-        -->
+        </tovar>
+    </category>
+    <category name="Автоматические выключатели, Дифференциальные автоматы, УЗО.">
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/5_.webp</urlimg>
+            <name></name>
+            <cost unit="руб."></cost>
+            <skidka></skidka>
+            <code></code>
+            <opisanie>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2"></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+    </category>
+    <category name="Релейная защита и автоматика">
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/6_.webp</urlimg>
+            <name></name>
+            <cost unit="руб."></cost>
+            <skidka></skidka>
+            <code></code>
+            <opisanie>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2"></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+    </category>
+    <category name="Кабельная продукция">
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/7_.webp</urlimg>
+            <name></name>
+            <cost unit="руб."></cost>
+            <skidka></skidka>
+            <code></code>
+            <opisanie>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2"></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+    </category>
+    <category name="Распределительные щиты">
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/8_.webp</urlimg>
+            <name></name>
+            <cost unit="руб."></cost>
+            <skidka></skidka>
+            <code></code>
+            <opisanie>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2"></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+    </category>
+    <category name="Зарядные станции для электромобилей">
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/9_.webp</urlimg>
+            <name></name>
+            <cost unit="руб."></cost>
+            <skidka></skidka>
+            <code></code>
+            <opisanie>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2"></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+    </category>
+    <category name="Системы молниезащиты и заземления">
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/10_.webp</urlimg>
+            <name></name>
+            <cost unit="руб."></cost>
+            <skidka></skidka>
+            <code></code>
+            <opisanie>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2"></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+    </category>
+    <category name="Системы защиты от протечки воды">
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/11_.webp</urlimg>
+            <name></name>
+            <cost unit="руб."></cost>
+            <skidka></skidka>
+            <code></code>
+            <opisanie>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2"></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+    </category>
+    <category name="Инструменты">
+        <tovar availability="1" number="1">
+            <urlimg>img/tovar/12_.webp</urlimg>
+            <name></name>
+            <cost unit="руб."></cost>
+            <skidka></skidka>
+            <code></code>
+            <opisanie>
+            </opisanie>
+            <characteristic>
+                <table>
+                    <tr>
+                        <th colspan="2"></th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </characteristic>
+        </tovar>
+    </category>
+</catalog>
