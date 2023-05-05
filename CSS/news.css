@@ -102,6 +102,11 @@
   text-align: center;
   transition: border-color 0.5s, background-color 0.5s;
 }
+@media (max-width: 1000px) {
+  .menu__link .link {
+    font-size: 16px;
+  }
+}
 @media (min-width: 767.99px) {
   .menu__link .link:hover {
     background-color: #e6e5e5;
@@ -231,6 +236,12 @@
     display: none;
   }
 }
+.footer__column:last-child {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  margin: 0;
+}
 .footer__title {
   font-size: 18px;
   color: rgb(229, 229, 229);
@@ -246,12 +257,11 @@
     text-align: center;
   }
 }
-.footer__logo a {
-  display: block;
-  position: relative;
+.footer__logo {
+  width: 150px;
 }
 .footer__logo img {
-  width: 150px;
+  width: 100%;
 }
 
 .info__body {

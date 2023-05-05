@@ -21,14 +21,14 @@
             <form class="info__form form">
                 <div class="form__content">
                     <label>Способ оплаты</label>
-                    <select required="on" name="" id="">
+                    <select name="buy" id="buy">
                         <option>Выберите способ оплаты:</option>
                         <option>Выберите способ оплаты:</option>
                         <option>Выберите способ оплаты:</option>
                         <option>Выберите способ оплаты:</option>
                     </select>
                     <label>Способ доставки</label>
-                    <select required="on" name="" id="">
+                    <select name="delivery" id="delivery">
                         <option>Выберите способ доставки:</option>
                         <option>Выберите способ оплаты:</option>
                         <option>Выберите способ оплаты:</option>
@@ -37,12 +37,13 @@
                         <option>Выберите способ оплаты:</option>
                     </select>
                     <label >Информация о получателе:</label>
-                    <input required="on" type="text" placeholder="Имя">
-                    <input required="on" type="text" placeholder="Фамилия">
+                    <input required type="text" placeholder="Имя">
+                    <input required type="text" placeholder="Фамилия">
+                    <input required type="text" placeholder="Адрес проживание">
                     <label >Контактные данные:</label>
-                    <input required="on" type="tel" placeholder="+375 (__) ___-__-__">
-                    <input required="on" type="email" placeholder="Почта">
-                    <a href="index.html">оформить заказ</a>
+                    <input required type="tel" placeholder="+375 (__) ___-__-__">
+                    <input required type="email" placeholder="Почта">
+                    <button onclick="window.location.href='index.html'; alert('Заказ оформлен! Ждите товара!')">оформить заказ</button>
                 </div>
             </form>
         </div>

@@ -81,4 +81,8 @@
 
 h2 {
     text-indent: 50px;
+    @media (max-width: 768px) {
+        text-indent: 25px;
+        font-size: 18px;
+    }
 }

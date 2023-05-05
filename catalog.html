@@ -39,11 +39,10 @@
             </div>
         </header>
         <div class="margin _container">
-            <aside>
-                <div class="aside">
+            <aside class="aside">
                 <div class="aside__list menu-aside">
                     <h1>Каталог товаров</h1>
-                    <ul class="menu-aside__body" style="display: block;"">
+                    <ul class="menu-aside__body" style="display: block;">
                         <li class="menu-aside__link"><a href="catalog.html" id="a0" class="link-aside"><span></span></a></li>
                         <li class="menu-aside__link"><a href="catalog.html" id="a1" class="link-aside"><span></span></a></li>
                         <li class="menu-aside__link"><a href="catalog.html" id="a2" class="link-aside"><span></span></a></li>
@@ -60,40 +59,28 @@
                     <script>
                         let uls = document.querySelector(".menu-aside__body");
                         let h1 = document.querySelector(".menu-aside h1");
-                        if(window.innerWidth < 768)
-                        {
-                            uls.style.display = "none";
-                        }
-                        else
-                        {
-                            uls.style.display = "block";
-                        }
                         window.addEventListener('resize', function() {
                             let uls = document.querySelector(".menu-aside__body");
-                            if(uls.classList.contains("active"))
+                            if(window.innerWidth < 768)
+                            {
+                               uls.style.display = "none";
+                            }
+                            else
                             {
                                 uls.style.display = "block";
-                            }
-                            else{
-                                if(window.innerWidth < 768)
-                                {
-                                    uls.style.display = "none";
-                                }
-                                else
-                                {
-                                    uls.style.display = "block";
-                                }
                             }
                         }, true);
                         h1.addEventListener('click', function() {
                             let uls = document.querySelector(".menu-aside__body");
-                            uls.classList.toggle('active');
-                            if (uls.classList.contains("active"))
-                            {
-                                uls.style.display = "block";
+                            if(window.innerWidth < 768) {
+                                uls.classList.toggle('active');
+                                if (uls.classList.contains("active"))
+                                {
+                                    uls.style.display = "block";
+                                }
+                                else{
+                                    uls.style.display = "none";
                             }
-                            else{
-                                uls.style.display = "none";
                             }
                         });
 

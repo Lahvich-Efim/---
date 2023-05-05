@@ -21,7 +21,7 @@
                 <div class="column__second-header">
                     <div class="contacts">
                         <a class="hed-tel" href="tel:+375291401167">+375-29-140-11-67</a>
-                        <a class="hed-email"href="email:efimlahvic@gmail.com">efimlahvic@gmail.com</a>
+                        <a class="hed-email" href="email:efimlahvic@gmail.com">efimlahvic@gmail.com</a>
                     </div>
                     <div id="burger" class="menu__burger">
                         <span></span>
@@ -40,8 +40,7 @@
             </div>
         </header>
     <div class="margin _container">
-                <aside>
-                    <div class="aside">
+                <aside class="aside">
                     <div class="aside__list menu-aside">
                         <h1>Каталог товаров</h1>
                         <ul class="menu-aside__body">
@@ -59,14 +58,13 @@
                             <li class="menu-aside__link"><a href="catalog.html" id="a11" class="link-aside"><span></span></a></li>
                         </ul>
                     </div>
-                    <div>
                 </aside>
         <main class="main"> 
             <div id="tovar" class="tovar">
                 <div class="info">
                     <div class="info__button">
-                        <div class="info__op active"><a id="but" value=".content-info__opisanie">Описание</a></div>
-                        <div class="info__ch"><a id="but" value=".content-info__characteristic">Характеристики</a></div>
+                        <div class="info__op active"><a class="but" value=".content-info__opisanie">Описание</a></div>
+                        <div class="info__ch"><a class="but" value=".content-info__characteristic">Характеристики</a></div>
                     </div>
                     <div class="info__content content-info">
                         <div class="content-info__opisanie active" style="display: block;">
@@ -100,7 +98,6 @@
                         <li class="info__link"><a href="info.html" class="link">Условие гарантии</a></li>
                         <li class="info__link"><a href="info.html" class="link">Доставка</a></li>
                         <li class="info__link"><a href="info.html" class="link">Возврат и обмен</a></li>
-
                     </ul>
                 </nav>
             </div>
@@ -138,7 +135,7 @@
     let button_ch = document.querySelector(".info__ch");
     let content_op = document.querySelector(".content-info__opisanie");
     let content_ch = document.querySelector(".content-info__characteristic");
-    document.querySelectorAll("#but").forEach((button) => {
+    document.querySelectorAll(".but").forEach((button) => {
     button.addEventListener('click', function() {
         let classname = this.getAttribute('value');
         let info = document.querySelector(classname);

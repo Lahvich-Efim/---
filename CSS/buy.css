@@ -59,6 +59,11 @@ ul {
     margin: 20px;
   }
 }
+@media (max-width: 535px) {
+  .content h2 {
+    font-size: 5vw;
+  }
+}
 
 .info {
   display: flex;
@@ -71,6 +76,11 @@ ul {
   border: solid 1px #b6b6b6;
   border-radius: 63px;
   flex: 0 1 auto;
+}
+@media (max-width: 535px) {
+  .info__form {
+    border-radius: 13vw;
+  }
 }
 .info__container {
   flex: 0 0 500px;
@@ -89,9 +99,8 @@ ul {
   margin: 0 50px;
 }
 .form__content label {
-  margin-top: 20px;
+  margin: 20px 0 0 20px;
   display: inline-block;
-  margin-left: 20px;
 }
 .form__content input, .form__content select {
   width: 100%;
@@ -104,8 +113,11 @@ ul {
 .form__content select {
   color: #5d5d5d;
 }
-.form__content a {
+.form__content button {
+  left: 50%;
+  transform: translate(-50%, 0);
   display: inline-block;
+  position: relative;
   padding: 10px 60px;
   background-color: #9C9600;
   border: none;
@@ -114,19 +126,37 @@ ul {
   color: #ffffff;
   border-radius: 13px;
   margin: 30px 0;
-  position: relative;
-  left: 50%;
-  transform: translate(-50%, 0);
 }
 @media (max-width: 535px) {
   .form__content {
     margin: 0 10%;
   }
 }
+@media (max-width: 535px) and (max-width: 350px) {
+  .form__content label {
+    font-size: 4.5vw;
+    margin: 8% 0 0 8%;
+  }
+  .form__content button {
+    font-size: 3.8vw;
+    padding: 4% 24%;
+  }
+  .form__content input, .form__content select {
+    font-size: 3.8vw;
+    padding: 3% 7%;
+    margin-top: 4%;
+  }
+}
 
 .items {
   border: solid 12px #BDB600;
   border-radius: 63px;
+}
+@media (max-width: 535px) {
+  .items {
+    border-radius: 13vw;
+    border-width: 2vw;
+  }
 }
 .items__title {
   margin: 4% 10%;
@@ -202,6 +232,9 @@ ul {
   .items__content .inf .stretchy-wrapper {
     width: 34vw;
     padding-bottom: 34vw;
+  }
+  .items__content .cost {
+    padding: 5% 0;
   }
   .items__content .cost__scidka {
     font-size: 2.5vw;
