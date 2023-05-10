@@ -44,3 +44,4 @@ else {
     document.getElementById("tovar").innerHTML = str;
     document.querySelector(".content-info__opisanie").innerHTML += str_op;
     document.querySelector(".content-info__characteristic").innerHTML = str_ch;
+    document.querySelector("title").innerHTML =  tovar.getElementsByTagName("name")[0].textContent;

@@ -113,6 +113,9 @@ ul {
 .form__content select {
   color: #5d5d5d;
 }
+.form__content option {
+  margin-top: 20px;
+}
 .form__content button {
   left: 50%;
   transform: translate(-50%, 0);
