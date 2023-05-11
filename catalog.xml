@@ -2703,62 +2703,169 @@
                 </table>
             </characteristic>
         </tovar>
-        <tovar availability="1" number="1">
+        <tovar availability="0" number="1">
             <urlimg>img/tovar/5_6.webp</urlimg>
-            <name></name>
-            <cost unit="руб."></cost>
-            <skidka></skidka>
-            <code></code>
-            <opisanie>
+            <name>Реле времени NJS5-M2 (7 устанавл. функц.) АС230B (CHINT)</name>
+            <cost unit="руб.">73.86</cost>
+            <skidka>0</skidka>
+            <code>303280</code>
+            <opisanie><p><strong>Реле времени NJS5-M2 (7 устанавл. функц.) АС230B (CHINT)</strong></p>
+<p>Серия: NJS5</p>
+<p>Номинальное напряжение питания цепи управления переменного тока, В: 230</p>
+<p>Функция задержки на выключение: Да</p>
+<p>Тип напряжения управления: AC</p>
+<p>Временной диапазон, сек: 1-360000</p>
+<p>Номинальный ток, А: 0.75</p>
+<p>Габаритные и установочные размеры (ШхВхГ), мм: 18,5x107x65</p>
+<p>Номинальное напряжение изоляции, В: 400</p>
+<p>Рабочая температура окружающей среды, °C: -5…+40</p>
+<p>Механическая износостойкость, млн. циклов: 1</p>
+<p>Электрическая износостойкость, млн. циклов: 0.03</p>
             </opisanie>
             <characteristic>
                 <table>
                     <tr>
-                        <th colspan="2"></th>
+                        <th colspan="2">Основные</th>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <td>Производитель</td>
+                        <td>Chint</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Китай</td>
+                    </tr>
+                    <tr>
+                        <td>Срок службы</td>
+                        <td>10 лет</td>
+                    </tr>
+                    <tr>
+                        <td>Степень защиты IP</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Линейка продукции</td>
+                        <td>NJS5</td>
                     </tr>
                 </table>
             </characteristic>
         </tovar>
         <tovar availability="1" number="1">
             <urlimg>img/tovar/5_7.webp</urlimg>
-            <name></name>
-            <cost unit="руб."></cost>
-            <skidka></skidka>
-            <code></code>
+            <name>Реле времени NTE8-480B (задержка времени включения)  0.5-8мин, 1НО, AC230В (CHINT)</name>
+            <cost unit="руб.">22.01</cost>
+            <skidka>0</skidka>
+            <code>302019</code>
             <opisanie>
+            <p><strong>Реле времени NTE8-480B (задержка времени включения) 0.5-8мин, 1НО, AC230В (CHINT)</strong></p>
+<p><strong>Характеристики</strong></p>
+<ul>
+<li>Соответствует: CB, ESC, SEMKO</li>
+<li>Электрические параметры: переменного тока 5А/1А 230 В, 50/60 Гц; постоянного тока 30 В</li>
+<li>Номинальное напряжение изоляции Ui: 480В</li>
+<li>Способ установки: II</li>
+<li>Степень защиты: IP20</li>
+<li>Износостойкость (операций): 100х10<sup>3</sup></li>
+<li>Соответствует ГОСТ Р 50030.5.1</li>
+</ul>
+<p><strong>Требования к зажимам</strong></p>
+<ul>
+<li>Сечение гибких одножильных проводников: 1-6 мм</li>
+<li>Сечение гибких многожильных проводников: 0,75-4 мм</li>
+<li>Момент затяжки винтов 0,8 Нм</li>
+</ul>
             </opisanie>
             <characteristic>
                 <table>
                     <tr>
-                        <th colspan="2"></th>
+                        <th colspan="2">Основные</th>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <td>Производитель</td>
+                        <td>Chint</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Китай</td>
+                    </tr>
+                    <tr>
+                        <td>Срок службы</td>
+                        <td>10 лет</td>
+                    </tr>
+                    <tr>
+                        <td>Степень защиты IP</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Линейка продукции</td>
+                        <td>NTE8</td>
                     </tr>
                 </table>
             </characteristic>
         </tovar>
         <tovar availability="1" number="1">
             <urlimg>img/tovar/5_8.webp</urlimg>
-            <name></name>
-            <cost unit="руб."></cost>
-            <skidka></skidka>
-            <code></code>
-            <opisanie>
+            <name>Индикатор ND9-2/gr  зеленый+красный, AC/DC230В (LED)</name>
+            <cost unit="руб.">17.65</cost>
+            <skidka>0</skidka>
+            <code>594138</code>
+            <opisanie><p><strong>Индикатор ND9-2/gr зеленый+красный, AC/DC230В (LED)</strong></p>
+<p><strong>Характеристики</strong></p>
+<ul>
+<li>Электрические параметры: переменный ток 230 В, 50/60 Гц</li>
+<li>Номинальное напряжение изоляции Ui: 500 В</li>
+<li>Степень защиты: IP20</li>
+<li>Номинальный рабочий ток Ie: не более 20 мА</li>
+<li>Срок службы светодиода: свыше 30000 ч</li>
+<li>Соответствует: ГОСТ Р 50030.5.1</li>
+</ul>
+<p><strong>Требования к зажимам:</strong></p>
+<ul>
+<li>Сечение проводника 1,0 мм</li>
+<li>момент затяжки 0,8 Нм</li>
+</ul>
             </opisanie>
             <characteristic>
                 <table>
                     <tr>
-                        <th colspan="2"></th>
+                        <th colspan="2">Основные</th>
                     </tr>
                     <tr>
-                        <td></td>
-                        <td></td>
+                        <td>Производитель</td>
+                        <td>Chint</td>
+                    </tr>
+                    <tr>
+                        <td>Страна производитель</td>
+                        <td>Китай</td>
+                    </tr>
+                    <tr>
+                        <td>Номинальное напряжение катушки</td>
+                        <td>230 В</td>
+                    </tr>
+                    <tr>
+                        <td>Номинальный ток</td>
+                        <td>20 А</td>
+                    </tr>
+                    <tr>
+                        <td>Степень защиты IP</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">Пользовательские характеристики</th>
+                    </tr>
+                    <tr>
+                        <td>Линейка продукции</td>
+                        <td>ND9</td>
+                    </tr>
+                    <tr>
+                        <td>Тип изделия</td>
+                        <td>Индикатор</td>
                     </tr>
                 </table>
             </characteristic>
