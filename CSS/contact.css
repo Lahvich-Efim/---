@@ -79,7 +79,7 @@
 .menu__body {
   display: flex;
   padding: 0;
-  margin: 10px -10p;
+  margin: 10px -10px;
   vertical-align: middle;
 }
 @media (max-width: 1000px) {

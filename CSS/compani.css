@@ -79,7 +79,7 @@
 .menu__body {
   display: flex;
   padding: 0;
-  margin: 10px -10p;
+  margin: 10px -10px;
   vertical-align: middle;
 }
 @media (max-width: 1000px) {
@@ -364,10 +364,7 @@ ul {
 .main ol, .main ul {
   text-indent: 0;
   list-style-position: outside;
-  margin-left: 40px;
-}
-.main ol li, .main ul li {
-  padding-left: 20px;
+  margin-left: 20px;
 }
 @media (max-width: 768px) {
   .main {
@@ -389,8 +386,5 @@ ul {
     list-style-position: outside;
     margin-left: 4%;
     padding-left: 8%;
-  }
-  .main ol li, .main ul li {
-    padding-left: 2%;
   }
 }

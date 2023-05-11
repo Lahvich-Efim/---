@@ -59,10 +59,7 @@ ul{
     ol, ul {
         text-indent: 0;
         list-style-position: outside;
-        margin-left: 40px;
-        li {
-            padding-left: 20px;
-        }
+        margin-left: 20px;
     }
     @media (max-width: 768px) {
         font-size: 90%; 
@@ -80,9 +77,6 @@ ul{
             list-style-position: outside;
             margin-left: 4%;
             padding-left: 8%;
-            li {
-                padding-left: 2%;
-            }
         }
     }
 }

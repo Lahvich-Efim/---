@@ -149,6 +149,9 @@ ul {
     padding: 3% 7%;
     margin-top: 4%;
   }
+  .form__content #tel:focus {
+    outline: none;
+  }
 }
 
 .items {
@@ -192,11 +195,13 @@ ul {
   position: relative;
   display: grid;
   align-items: center;
+  justify-items: center;
 }
 .items__content .inf .stretchy-wrapper img {
   position: absolute;
   display: block;
-  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 .items__content .cost {
   border-top: 1px solid #999999;

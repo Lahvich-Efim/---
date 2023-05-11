@@ -18,7 +18,8 @@ else {
 }
 var news = xmlDoc.getElementsByTagName("new")[n];
 var str = "";
-str += "<h2 class=\"new__title\">" + news.getElementsByTagName("title")[0].textContent + "</h2><img class=\"new__img\" src=\"" + news.getElementsByTagName("urlimg")[0].textContent + "\"><div class=\"new__description\">" + news.getElementsByTagName("description")[0].innerHTML + "</div><p class=\"new__data\">" + news.getElementsByTagName("date")[0].textContent + "</p>" + document.querySelector(".new__content").innerHTML = str; 
+str += "<h2 class=\"new__title\">" + news.getElementsByTagName("title")[0].textContent + "</h2><img class=\"new__img\" src=\"" + news.getElementsByTagName("urlimg")[0].textContent + "\"><div class=\"new__description\">" + news.getElementsByTagName("description")[0].innerHTML + "</div><p class=\"new__data\">" + news.getElementsByTagName("date")[0].textContent + "</p>";
+document.querySelector(".new__content").innerHTML = str; 
 document.querySelector("title").innerHTML =  news.getElementsByTagName("title")[0].textContent;
   
                     

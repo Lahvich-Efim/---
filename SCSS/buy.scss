@@ -93,6 +93,7 @@
                     padding: 3% 7%; 
                     margin-top: 4%;
                  }
+                 #tel:focus{outline: none;}
             }
         }
     }
@@ -133,11 +134,12 @@
                 position: relative;
                 display:grid;
                 align-items: center;
+                justify-items: center;
                 img {
                     position: absolute;
                     display:block;
-                    width: 100%;
-                    
+                    max-width: 100%;
+                    max-height: 100%;
                 }
             }
         }
