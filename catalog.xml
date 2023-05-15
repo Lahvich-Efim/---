@@ -2995,13 +2995,12 @@
             <opisanie>
                 <p><a href="http://fif.by/get/file/710" target="_blank">Руководство CKF-316</a> <br/> 476.7 КБ</p>
                 <p><a href="http://fif.by/data/img/24a7e59e625b68826c798631d5459033.jpg" target="_blank">Схема подключения CKF-316</a></p> 
-                <a href="http://fif.by/data/img/24a7e59e625b68826c798631d5459033.jpg" target="_blank"><img alt="" src="https://ssl.prom.st/q?u=http%3A%2F%2Ffif.by%2Fdata%2Fimg%2F6dee4579cc07bd74a0093b72f2a5deba.jpg&amp;s=imrjyhjg&amp;h=VsHUvPRVLNrdiplQAp5PuA" style="border:0px"></a> 
-                <img alt="" src="https://ssl.prom.st/q?u=http%3A%2F%2Ffif.by%2Fdata%2Fimg%2F09a17719f200f433d1ce5790c52dde88.jpg&amp;s=tfmqunsu&amp;h=p8bBrs-ORXzW0N-Gw5Y05w"> 
+                <a href="http://fif.by/data/img/24a7e59e625b68826c798631d5459033.jpg" target="_blank"><img alt="" src="https://ssl.prom.st/q?u=http%3A%2F%2Ffif.by%2Fdata%2Fimg%2F6dee4579cc07bd74a0093b72f2a5deba.jpg&amp;s=imrjyhjg&amp;h=VsHUvPRVLNrdiplQAp5PuA" style="border:0px"/></a> 
+                <img alt="" src="https://ssl.prom.st/q?u=http%3A%2F%2Ffif.by%2Fdata%2Fimg%2F09a17719f200f433d1ce5790c52dde88.jpg&amp;s=tfmqunsu&amp;h=p8bBrs-ORXzW0N-Gw5Y05w"/> 
                 <p>Автомат защиты электродвигателей CKF-316 предназначен для защиты электродвигателей и электроустановок, питаемых от трехфазной сети в случаях: отсутствия хотя бы одной из фаз, асимметрии напряжения, нарушения чередования фаз.</p> 
                 <p>Принцип работы: </p>
                 <p>Если напряжение в пределах нормы, контакты исполнительного реле 11,12 замкнуты и на контактор управления электродвигателем подается напряжение, управляющее его включением. В случае одной из вышеперечисленных аварийных ситуаций контакты реле размыкаются и контактор отключается. Выключение в случае асимметрии напряжения происходит с задержкой 3-5 секунд во избежание случайного отключения двигателя при кратковременных падениях напряжения. В случаях отсутствия хотя бы одной из фаз, нарушения чередования фаз изделие выклычается с задержкой 0,1 секунды. Включение происходит автоматически после восстановления сетевого напряжения питания.</p>
-                <a href="http://fif.by/catalog/ckf-316#tab_1" target="_blank">CKF-316</a> 
-                <p>Монтаж:</p> 
+                <p><a href="http://fif.by/catalog/ckf-316#tab_1" target="_blank">CKF-316</a> Монтаж:</p> 
                 <ol> 
                     <li>Отключить питание;</li> 
                     <li>Подключить: 1,4,6 к входным зажимам контактора, зажим 3 к нулевому проводу. Провод управления контактором отключить от фазы и подключить к зажиму 12. Зажим 10 можно использовать для подключения световой или звуковой сигнализации. Любую из фаз подключить к зажиму 11;</li> 
